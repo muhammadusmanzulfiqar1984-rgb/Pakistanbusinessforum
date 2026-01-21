@@ -1,0 +1,46 @@
+.practice-areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-lg);
+}
+
+.practice-area-card {
+  display: block;
+  padding: var(--spacing-lg);
+  background-color: var(--color-card);
+  border: 1px solid var(--color-grey-border);
+  text-decoration: none;
+  color: inherit;
+}
+
+.practice-area-card:hover {
+  border-color: var(--color-grey-border);
+}
+
+.practice-area-card h2 {
+  color: var(--color-maroon);
+  margin-bottom: var(--spacing-md);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+}
+
+.practice-area-card p {
+  color: var(--color-grey-dark);
+  line-height: var(--line-height-base);
+  font-weight: 400;
+  margin-bottom: var(--spacing-md);
+}
+
+.practice-area-card .card-link {
+  display: inline-block;
+  color: var(--color-text-body);
+  font-weight: 400;
+  font-size: var(--font-size-base);
+  margin-top: var(--spacing-sm);
+}
+
+@media (max-width: 768px) {
+  .practice-areas-grid {
+    grid-template-columns: 1fr;
+  }
+}

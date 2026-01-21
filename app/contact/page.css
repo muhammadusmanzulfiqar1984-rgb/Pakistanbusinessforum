@@ -1,0 +1,94 @@
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: var(--spacing-xl);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.contact-info h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.info-item {
+  margin-bottom: var(--spacing-md);
+}
+
+.info-item h3 {
+  font-size: var(--font-size-lg);
+  color: var(--color-maroon);
+  margin-bottom: var(--spacing-xs);
+}
+
+.info-item p {
+  color: var(--color-text-body);
+  line-height: 1.65;
+}
+
+.contact-form-wrapper h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text-primary);
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 0;
+  font-size: 16px;
+  font-family: inherit;
+  color: var(--color-text-body);
+  background-color: var(--color-surface);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-maroon);
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 1rem 2.5rem;
+  background-color: var(--color-surface);
+  color: var(--color-text-body);
+  border: 1px solid var(--color-border);
+  border-radius: 0;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+  align-self: flex-start;
+  letter-spacing: 0.02em;
+}
+
+.submit-button:hover {
+  background-color: var(--color-surface);
+  color: var(--color-maroon);
+}
+
+@media (max-width: 768px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+}

@@ -1,0 +1,612 @@
+/* Premium UI/UX Enhancements for International Organization
+   Additive only - does not modify existing styles
+   Designed for diplomats, policymakers, and international organizations
+*/
+
+/* Enhanced Color Palette - Premium Accents */
+:root {
+  --premium-gold: #C9A961;
+  --premium-navy: #1a2332;
+  --premium-shadow: rgba(122, 31, 43, 0.08);
+  --premium-shadow-hover: rgba(122, 31, 43, 0.15);
+  --premium-border-subtle: rgba(122, 31, 43, 0.1);
+  --premium-gradient: linear-gradient(135deg, rgba(122, 31, 43, 0.05) 0%, rgba(201, 169, 97, 0.05) 100%);
+}
+
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Enhanced Card Styles - Premium Look */
+.card {
+  box-shadow: 0 2px 8px var(--premium-shadow);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 4px;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px var(--premium-shadow-hover);
+  border-color: var(--color-maroon);
+}
+
+/* Premium Navigation Enhancements */
+.site-header {
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.98);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+/* Navigation enhancements - only if not conflicting with existing styles */
+.nav-link {
+  transition: all 0.2s ease;
+}
+
+/* Enhanced navigation hover effect - subtle */
+.nav-link:not(.active):hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+/* Enhanced Hero Section - Removed conflicting styles, using page.css instead */
+
+.page-title {
+  letter-spacing: -0.02em;
+  font-weight: 700;
+  position: relative;
+}
+
+/* Premium Section Styling */
+.section {
+  position: relative;
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: 12px;
+  letter-spacing: -0.01em;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 3px;
+  background: var(--color-maroon);
+  border-radius: 2px;
+}
+
+/* Enhanced Typography */
+.lead {
+  font-size: 17px;
+  line-height: 1.7;
+  letter-spacing: 0.01em;
+  font-weight: 400;
+}
+
+/* Premium Button Styles */
+.premium-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: var(--color-maroon);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px var(--premium-shadow);
+}
+
+.premium-button:hover {
+  background: #5a151f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px var(--premium-shadow-hover);
+}
+
+.premium-button-secondary {
+  background: transparent;
+  color: var(--color-maroon);
+  border: 2px solid var(--color-maroon);
+  box-shadow: none;
+}
+
+.premium-button-secondary:hover {
+  background: var(--color-maroon);
+  color: white;
+}
+
+/* Enhanced List Styling - Minimal to avoid conflicts */
+.clean-list li {
+  transition: all 0.2s ease;
+}
+
+/* Premium Footer Enhancements - Ensure proper positioning */
+.footer {
+  position: relative;
+  width: 100%;
+  clear: both;
+  margin-top: auto;
+  flex-shrink: 0;
+}
+
+/* Enhanced Page Header */
+.page-header {
+  position: relative;
+  padding-bottom: 32px;
+}
+
+.page-header::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--premium-border-subtle) 20%, var(--premium-border-subtle) 80%, transparent);
+}
+
+/* Premium Advisor Cards */
+.advisor-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 6px;
+}
+
+.advisor-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 32px var(--premium-shadow-hover);
+}
+
+/* Enhanced Team Cards */
+.team-member {
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.team-member:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px var(--premium-shadow);
+}
+
+/* Premium Value Cards */
+.value-card {
+  transition: all 0.3s ease;
+  border-radius: 4px;
+}
+
+.value-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px var(--premium-shadow);
+}
+
+/* Smooth Fade-in Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Enhanced Focus States for Accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-maroon);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* Premium Loading States */
+.loading-shimmer {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Enhanced Partner Cards */
+.partner-card {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 10px 28px var(--premium-shadow-hover);
+}
+
+.partner-logo-container {
+  transition: transform 0.3s ease;
+}
+
+.partner-card:hover .partner-logo-container {
+  transform: scale(1.05);
+}
+
+/* Premium Closing Line */
+.closing-line {
+  position: relative;
+  padding: 24px 0;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+.closing-line::before,
+.closing-line::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 40px;
+  height: 1px;
+  background: var(--premium-border-subtle);
+}
+
+.closing-line::before {
+  left: calc(50% - 120px);
+}
+
+.closing-line::after {
+  right: calc(50% - 120px);
+}
+
+/* Enhanced Section Dividers */
+.section-divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--premium-border-subtle) 20%, var(--premium-border-subtle) 80%, transparent);
+  margin: 48px 0;
+  border: none;
+}
+
+/* Premium Scroll Indicator */
+.scroll-indicator {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--premium-border-subtle);
+  z-index: 9999;
+  transform-origin: left;
+}
+
+.scroll-indicator::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: var(--scroll-progress, 0%);
+  background: var(--color-maroon);
+  transition: width 0.1s ease;
+}
+
+/* Enhanced Responsive Design */
+@media (max-width: 968px) {
+  .card:hover {
+    transform: translateY(-2px);
+  }
+  
+  .advisor-card:hover,
+  .partner-card:hover {
+    transform: translateY(-3px);
+  }
+}
+
+/* Premium Section Backgrounds */
+.section-premium {
+  background: var(--premium-gradient);
+  padding: 48px 0;
+  margin: 32px 0;
+  border-radius: 8px;
+}
+
+/* Enhanced Publication Cards */
+.publication-paper {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  border-left: 4px solid var(--color-maroon);
+}
+
+.publication-paper:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px var(--premium-shadow);
+}
+
+/* Premium Team Pakistan Cards */
+.team-pakistan-section {
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.team-pakistan-section:hover {
+  box-shadow: 0 4px 16px var(--premium-shadow);
+  transform: translateY(-2px);
+}
+
+/* Enhanced Scope Lists */
+.scope-list li {
+  transition: all 0.2s ease;
+  position: relative;
+}
+
+.scope-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 2px;
+  background: var(--color-maroon);
+  transition: width 0.3s ease;
+}
+
+.scope-list li:hover {
+  padding-left: 28px;
+}
+
+.scope-list li:hover::before {
+  width: 20px;
+}
+
+/* Premium Content Lists */
+.content-list li {
+  transition: all 0.2s ease;
+}
+
+.content-list li:hover {
+  background: rgba(122, 31, 43, 0.02);
+  padding-left: 28px;
+}
+
+/* Enhanced Page Shell */
+.page-shell {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* Premium Divider Lines */
+.divider-premium {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(122, 31, 43, 0.2) 20%, rgba(122, 31, 43, 0.2) 80%, transparent);
+  margin: 48px 0;
+  border: none;
+}
+
+/* Enhanced Email Links */
+.email-link {
+  transition: all 0.2s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.email-link:hover {
+  border-bottom-color: var(--color-maroon);
+  padding-bottom: 1px;
+}
+
+/* Premium Media Leadership Boxes */
+.media-leadership {
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.media-leadership:hover {
+  box-shadow: 0 4px 16px var(--premium-shadow);
+  transform: translateY(-2px);
+}
+
+/* Enhanced Partner Logo Hover */
+.partner-logo-image {
+  transition: all 0.3s ease;
+  filter: grayscale(20%);
+}
+
+.partner-card:hover .partner-logo-image {
+  filter: grayscale(0%);
+  transform: scale(1.08);
+}
+
+/* Premium Timeline Items */
+.timeline-item {
+  transition: all 0.2s ease;
+  padding-left: 8px;
+}
+
+.timeline-item:hover {
+  padding-left: 12px;
+  border-left: 3px solid var(--color-maroon);
+}
+
+/* Enhanced Message Cards */
+.message-card {
+  transition: all 0.3s ease;
+  border-radius: 6px;
+}
+
+.message-card:hover {
+  box-shadow: 0 6px 20px var(--premium-shadow);
+  transform: translateY(-2px);
+}
+
+/* Premium Value Cards Grid */
+.values-grid {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.value-card {
+  animation: fadeInUp 0.6s ease-out;
+  animation-fill-mode: both;
+}
+
+.value-card:nth-child(1) { animation-delay: 0.1s; }
+.value-card:nth-child(2) { animation-delay: 0.2s; }
+.value-card:nth-child(3) { animation-delay: 0.3s; }
+.value-card:nth-child(4) { animation-delay: 0.4s; }
+.value-card:nth-child(5) { animation-delay: 0.5s; }
+.value-card:nth-child(6) { animation-delay: 0.6s; }
+.value-card:nth-child(7) { animation-delay: 0.7s; }
+.value-card:nth-child(8) { animation-delay: 0.8s; }
+
+/* Duplicate removed - using styles from line 141 */
+
+/* Premium Closing Line Enhancement */
+.closing-line {
+  position: relative;
+  padding: 32px 0;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
+}
+
+.closing-line::before,
+.closing-line::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 1px;
+  background: rgba(122, 31, 43, 0.2);
+}
+
+.closing-line::before {
+  left: calc(50% - 180px);
+}
+
+.closing-line::after {
+  right: calc(50% - 180px);
+}
+
+@media (max-width: 768px) {
+  .closing-line::before,
+  .closing-line::after {
+    width: 30px;
+  }
+  
+  .closing-line::before {
+    left: calc(50% - 120px);
+  }
+  
+  .closing-line::after {
+    right: calc(50% - 120px);
+  }
+}
+
+/* Premium Scroll Progress Indicator */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: rgba(122, 31, 43, 0.1);
+  z-index: 9999;
+  transform-origin: left;
+}
+
+.scroll-progress-bar {
+  height: 100%;
+  background: var(--color-maroon);
+  width: 0%;
+  transition: width 0.1s ease;
+}
+
+/* Enhanced Section Image Containers */
+.section-image {
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.section-image:hover {
+  box-shadow: 0 8px 24px var(--premium-shadow);
+}
+
+/* Premium Card Grid Enhancements */
+.card-grid {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+.card-grid .card {
+  animation: fadeInUp 0.4s ease-out;
+  animation-fill-mode: both;
+}
+
+.card-grid .card:nth-child(1) { animation-delay: 0.1s; }
+.card-grid .card:nth-child(2) { animation-delay: 0.2s; }
+.card-grid .card:nth-child(3) { animation-delay: 0.3s; }
+.card-grid .card:nth-child(4) { animation-delay: 0.4s; }
+.card-grid .card:nth-child(5) { animation-delay: 0.5s; }
+.card-grid .card:nth-child(6) { animation-delay: 0.6s; }
+
+/* Enhanced Page Container */
+.page-container {
+  animation: fadeInUp 0.5s ease-out;
+}
+
+/* Premium Text Selection */
+::selection {
+  background: rgba(122, 31, 43, 0.2);
+  color: var(--color-text-primary);
+}
+
+::-moz-selection {
+  background: rgba(122, 31, 43, 0.2);
+  color: var(--color-text-primary);
+}
+
+/* Enhanced Link Transitions */
+a {
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+/* Premium Hover Effects for Interactive Elements */
+button,
+.nav-search,
+.social-link {
+  transition: all 0.2s ease;
+}
+
+button:hover,
+.nav-search:hover {
+  transform: scale(1.05);
+}
+
+/* Enhanced Visual Hierarchy */
+.page-title {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+
+.section-title {
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.02);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

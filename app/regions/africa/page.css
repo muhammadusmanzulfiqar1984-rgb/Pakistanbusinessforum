@@ -1,0 +1,28 @@
+.scope-list {
+  list-style: none;
+  padding-left: 0;
+  margin: var(--spacing-lg) 0;
+}
+
+.scope-list li {
+  padding: var(--spacing-md) 0;
+  padding-left: var(--spacing-lg);
+  position: relative;
+  color: var(--color-grey-dark);
+  line-height: var(--line-height-base);
+  border-bottom: 1px solid var(--color-grey-border);
+}
+
+.scope-list li:last-child {
+  border-bottom: none;
+}
+
+.email-link {
+  color: var(--color-maroon);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}

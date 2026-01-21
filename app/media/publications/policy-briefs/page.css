@@ -1,0 +1,77 @@
+@import '../academic-journals/page.css';
+
+.brief-number {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-maroon);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: var(--spacing-xs);
+  font-family: 'Courier New', monospace;
+}
+
+.policy-brief {
+  border-left-width: 4px;
+}
+
+.summary-section {
+  margin-bottom: var(--spacing-md);
+}
+
+.summary-section h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 13px;
+}
+
+.recommendations-section h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 13px;
+}
+
+.recommendations-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recommendations-list li {
+  padding: var(--spacing-xs) 0 var(--spacing-xs) var(--spacing-lg);
+  position: relative;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-text-body);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.recommendations-list li:last-child {
+  border-bottom: none;
+}
+
+.recommendations-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: var(--color-maroon);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.brief-topic {
+  padding: 4px 12px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  font-size: 13px;
+  color: var(--color-text-body);
+  font-weight: 500;
+}

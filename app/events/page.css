@@ -1,0 +1,138 @@
+.event-card {
+  position: relative;
+}
+
+.event-type {
+  display: inline-block;
+  padding: 3px 10px;
+  background: #7a1f2b;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  border-radius: 3px;
+  margin-bottom: 8px;
+}
+
+.event-meta {
+  margin: 8px 0;
+  padding-top: 8px;
+  border-top: 1px solid var(--color-border);
+}
+
+.event-date,
+.event-location {
+  margin: 4px 0;
+  font-size: 13px;
+  color: var(--color-text-body);
+  line-height: 1.5;
+}
+
+.event-date strong,
+.event-location strong {
+  color: #7a1f2b;
+  font-weight: 600;
+}
+
+.event-card h3 {
+  margin-bottom: 8px;
+  font-size: 18px;
+  line-height: 1.3;
+}
+
+.event-card p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text-body);
+}
+
+.registration-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #7a1f2b;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.registration-link:hover {
+  background: #5a151f;
+  color: #ffffff;
+}
+
+/* Compact card grid for events */
+.events-page .card-grid {
+  gap: 16px;
+}
+
+.events-page .card {
+  padding: var(--spacing-md);
+  gap: 8px;
+}
+
+.events-page .section {
+  padding: var(--spacing-md) 0;
+}
+
+.events-page .section-title {
+  margin-bottom: 12px;
+  font-size: 24px;
+}
+
+.events-page p {
+  margin-bottom: 12px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .event-card h3 {
+    font-size: 16px;
+  }
+
+  .event-card p {
+    font-size: 13px;
+  }
+
+  .registration-link {
+    padding: 8px 16px;
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .events-page .section-title {
+    font-size: 20px;
+  }
+
+  .event-date,
+  .event-location {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-card h3 {
+    font-size: 15px;
+  }
+
+  .event-card p {
+    font-size: 12px;
+  }
+
+  .registration-link {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  .events-page .section-title {
+    font-size: 18px;
+  }
+}

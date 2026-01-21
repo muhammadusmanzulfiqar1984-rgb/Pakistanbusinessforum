@@ -1,0 +1,44 @@
+.criteria-list {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-md) 0;
+}
+
+.criteria-list li {
+  margin-bottom: var(--spacing-md);
+  padding-left: var(--spacing-lg);
+  position: relative;
+  line-height: 1.8;
+  color: var(--color-text-body);
+}
+
+.criteria-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #7a1f2b;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.criteria-list strong {
+  color: #7a1f2b;
+  font-weight: 600;
+}
+
+.criteria-list h3 {
+  margin-top: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+}
+
+.inline-link {
+  color: #7a1f2b;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid #7a1f2b;
+}
+
+.inline-link:hover {
+  border-bottom-color: #5a151f;
+  color: #5a151f;
+}

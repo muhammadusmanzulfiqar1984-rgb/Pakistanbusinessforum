@@ -1,0 +1,38 @@
+.themes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-md);
+  margin: var(--spacing-md) 0 var(--spacing-lg);
+}
+
+.theme-card {
+  padding: var(--spacing-md);
+  background-color: var(--color-card);
+  border: 1px solid var(--color-grey-border);
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.theme-card:hover {
+  border-color: var(--color-grey-border);
+}
+
+.theme-card h3 {
+  color: var(--color-maroon);
+  margin-bottom: var(--spacing-sm);
+  font-weight: 400;
+}
+
+.theme-card p {
+  color: var(--color-grey-dark);
+  margin-bottom: var(--spacing-sm);
+  line-height: var(--line-height-base);
+  font-weight: 400;
+}
+
+.theme-card .card-link {
+  color: var(--color-text-body);
+  font-weight: 400;
+  font-size: var(--font-size-base);
+}

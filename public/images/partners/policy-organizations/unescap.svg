@@ -1,0 +1,7 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="12" fill="#f1eeeb" stroke="#7a1f2b" stroke-width="3"/>
+  <path d="M 70 50 L 90 70 L 110 50 L 110 80 L 90 100 L 70 80 Z" fill="#7a1f2b" opacity="0.2"/>
+  <path d="M 70 50 L 90 70 L 110 50 L 110 80 L 90 100 L 70 80 Z" fill="none" stroke="#7a1f2b" stroke-width="2.5"/>
+  <circle cx="90" cy="75" r="5" fill="#7a1f2b"/>
+  <text x="90" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#7a1f2b" text-anchor="middle">ESCAP</text>
+</svg>

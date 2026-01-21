@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 120" role="img" aria-label="Pakistan Business Forum logo">
+  <defs>
+    <style>
+      .maroon { fill: #7a1f2b; }
+      .maroon-dark { fill: #5a151f; }
+      .off-white { fill: #faf7f4; }
+      .text { fill: #7a1f2b; font-family: "Inter", "Helvetica Neue", Arial, sans-serif; font-size: 12px; font-weight: 500; }
+    </style>
+  </defs>
+
+  <!-- Main logo container -->
+  <g transform="translate(20, 20)">
+    
+    <!-- Outer Off-White Ring (Border with bevel effect) -->
+    <g transform="translate(50, 50)">
+      <!-- Outer ring shadow -->
+      <circle class="maroon-dark" cx="0" cy="2" r="50" opacity="0.2"/>
+      <!-- Outer ring -->
+      <circle class="off-white" cx="0" cy="0" r="50" stroke="#7a1f2b" stroke-width="1.5"/>
+      
+      <!-- Stars on left and right of outer ring -->
+      <g transform="translate(-50, 0)">
+        <path d="M 0 -3 L 1.2 -0.8 L 3.5 -0.8 L 1.4 0.2 L 2.3 2.5 L 0 1.2 L -2.3 2.5 L -1.4 0.2 L -3.5 -0.8 L -1.2 -0.8 Z" fill="#7a1f2b"/>
+      </g>
+      <g transform="translate(50, 0)">
+        <path d="M 0 -3 L 1.2 -0.8 L 3.5 -0.8 L 1.4 0.2 L 2.3 2.5 L 0 1.2 L -2.3 2.5 L -1.4 0.2 L -3.5 -0.8 L -1.2 -0.8 Z" fill="#7a1f2b"/>
+      </g>
+      
+      <!-- Inner Maroon Ring -->
+      <circle class="maroon" cx="0" cy="0" r="42"/>
+      
+      <!-- Globe at center -->
+      <g transform="translate(0, 0)">
+        <!-- Globe base circle -->
+        <circle class="off-white" cx="0" cy="0" r="28"/>
+        
+        <!-- Latitude lines -->
+        <ellipse class="maroon" cx="0" cy="0" rx="28" ry="8" fill="none" stroke="#7a1f2b" stroke-width="0.8" opacity="0.7"/>
+        <ellipse class="maroon" cx="0" cy="0" rx="28" ry="14" fill="none" stroke="#7a1f2b" stroke-width="0.8" opacity="0.7"/>
+        <ellipse class="maroon" cx="0" cy="0" rx="28" ry="20" fill="none" stroke="#7a1f2b" stroke-width="0.8" opacity="0.7"/>
+        
+        <!-- Longitude lines -->
+        <line class="maroon" x1="0" y1="-28" x2="0" y2="28" stroke="#7a1f2b" stroke-width="0.8" opacity="0.7"/>
+        <path class="maroon" d="M -20 -14 Q 0 -20 20 -14" fill="none" stroke="#7a1f2b" stroke-width="0.8" opacity="0.7"/>
+        <path class="maroon" d="M -20 0 Q 0 -6 20 0" fill="none" stroke="#7a1f2b" stroke-width="0.8" opacity="0.7"/>
+        <path class="maroon" d="M -20 14 Q 0 8 20 14" fill="none" stroke="#7a1f2b" stroke-width="0.8" opacity="0.7"/>
+        
+        <!-- Landmasses (simplified Western Hemisphere view) -->
+        <!-- North America -->
+        <path class="off-white" d="M -18 -8 L -12 -10 L -8 -6 L -10 -2 L -15 -1 L -18 -5 Z" opacity="0.95"/>
+        <!-- Central America -->
+        <path class="off-white" d="M -12 -2 L -10 2 L -12 4 L -14 2 Z" opacity="0.95"/>
+        <!-- South America -->
+        <path class="off-white" d="M -15 5 L -12 8 L -10 12 L -12 16 L -15 14 L -16 10 Z" opacity="0.95"/>
+        <!-- Europe -->
+        <path class="off-white" d="M -2 -10 L 2 -8 L 4 -4 L 3 0 L 1 2 L -1 0 L -3 -4 L -3 -8 Z" opacity="0.95"/>
+        <!-- Africa -->
+        <path class="off-white" d="M 2 0 L 4 2 L 3 6 L 2 10 L 0 8 L -1 4 L 0 2 Z" opacity="0.95"/>
+        <!-- Asia -->
+        <path class="off-white" d="M 8 -6 L 15 -4 L 18 -2 L 16 2 L 14 6 L 10 4 L 8 0 Z" opacity="0.95"/>
+        
+        <!-- Stars on globe -->
+        <circle class="maroon" cx="-10" cy="-5" r="1.2" fill="#7a1f2b"/>
+        <circle class="maroon" cx="-12" cy="8" r="1.2" fill="#7a1f2b"/>
+        <circle class="maroon" cx="2" cy="-6" r="1.2" fill="#7a1f2b"/>
+        <circle class="maroon" cx="5" cy="3" r="1.2" fill="#7a1f2b"/>
+        <circle class="maroon" cx="12" cy="-2" r="1.2" fill="#7a1f2b"/>
+      </g>
+      
+      <!-- Text on inner maroon ring - Top -->
+      <text class="off-white" x="0" y="-35" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="7" font-weight="700" letter-spacing="0.8">
+        PAKISTAN. THE THINK TANK
+      </text>
+      
+      <!-- Text on inner maroon ring - Bottom -->
+      <text class="off-white" x="0" y="38" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="6" font-weight="600" letter-spacing="0.5">
+        DETERMINATION, DEDICATION, DELIVERY
+      </text>
+      
+      <!-- Arrow symbols on left and right -->
+      <!-- Left arrow (counter-clockwise) -->
+      <g transform="translate(-42, 0) rotate(-90)">
+        <path d="M 0 0 L -5 4 L 0 8 L 1.5 5 L 5 5 L 5 3 L 1.5 3 Z" fill="#faf7f4"/>
+      </g>
+      
+      <!-- Right arrow (clockwise) -->
+      <g transform="translate(42, 0) rotate(90)">
+        <path d="M 0 0 L -5 4 L 0 8 L 1.5 5 L 5 5 L 5 3 L 1.5 3 Z" fill="#faf7f4"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- "Serving Since 2020" text positioned to the right -->
+  <text class="text" x="180" y="70" text-anchor="start" font-size="11" font-weight="500">Serving Since 2020</text>
+</svg>

@@ -1,0 +1,94 @@
+@import '../academic-journals/page.css';
+
+.paper-number {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-maroon);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: var(--spacing-xs);
+  font-family: 'Courier New', monospace;
+}
+
+.paper-version {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-bottom: var(--spacing-sm);
+}
+
+.working-paper {
+  border-left-width: 4px;
+  border-left-color: #9B5A63;
+}
+
+.research-questions-section {
+  margin-top: var(--spacing-md);
+}
+
+.research-questions-section h4 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 13px;
+}
+
+.research-questions-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.research-questions-list li {
+  padding: var(--spacing-xs) 0 var(--spacing-xs) var(--spacing-lg);
+  position: relative;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--color-text-body);
+  border-bottom: 1px solid var(--color-border);
+  font-style: italic;
+}
+
+.research-questions-list li:last-child {
+  border-bottom: none;
+}
+
+.research-questions-list li::before {
+  content: '?';
+  position: absolute;
+  left: 0;
+  color: var(--color-maroon);
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
+}
+
+.paper-status {
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.status-draft {
+  background: #FFF4E6;
+  color: #B8860B;
+  border: 1px solid #FFD700;
+}
+
+.status-under-review {
+  background: #E6F3FF;
+  color: #0066CC;
+  border: 1px solid #4DA6FF;
+}
+
+.status-under-revision {
+  background: #F0E6FF;
+  color: #6B46C1;
+  border: 1px solid #A78BFA;
+}

@@ -1,0 +1,7 @@
+<svg width="180" height="180" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="12" fill="#f1eeeb" stroke="#7a1f2b" stroke-width="3"/>
+  <rect x="70" y="55" width="40" height="30" rx="3" fill="#7a1f2b" opacity="0.2"/>
+  <rect x="70" y="55" width="40" height="30" rx="3" fill="none" stroke="#7a1f2b" stroke-width="2.5"/>
+  <path d="M 75 70 L 90 60 L 105 70" stroke="#7a1f2b" stroke-width="2.5" fill="none"/>
+  <text x="90" y="140" font-family="Arial, sans-serif" font-size="16" font-weight="700" fill="#7a1f2b" text-anchor="middle">HAR</text>
+</svg>

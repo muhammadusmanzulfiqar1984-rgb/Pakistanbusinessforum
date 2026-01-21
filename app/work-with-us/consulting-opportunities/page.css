@@ -1,0 +1,114 @@
+.position-list {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-md);
+}
+
+.position-item {
+  background-color: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-top: 5px solid #7a1f2b;
+  padding: var(--spacing-lg);
+  transition: all 0.2s ease;
+}
+
+.position-item:hover {
+  border-color: #7a1f2b;
+  border-top-color: #7a1f2b;
+}
+
+.position-item h3 {
+  color: #7a1f2b;
+  font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+}
+
+.position-item p {
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.8;
+}
+
+.requirements-list,
+.engagement-list,
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-md) 0;
+}
+
+.requirements-list li,
+.engagement-list li,
+.benefits-list li {
+  padding-left: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+  position: relative;
+  line-height: 1.8;
+  color: var(--color-text-body);
+}
+
+.requirements-list li::before,
+.engagement-list li::before,
+.benefits-list li::before {
+  content: '•';
+  position: absolute;
+  left: 0;
+  color: #7a1f2b;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.position-item strong {
+  color: #7a1f2b;
+  font-weight: 600;
+}
+
+.process-list {
+  list-style: none;
+  padding: 0;
+  margin: var(--spacing-md) 0;
+  counter-reset: step-counter;
+}
+
+.process-list li {
+  counter-increment: step-counter;
+  padding-left: var(--spacing-2xl);
+  margin-bottom: var(--spacing-md);
+  position: relative;
+  line-height: 1.8;
+  color: var(--color-text-body);
+}
+
+.process-list li::before {
+  content: counter(step-counter);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  background: #7a1f2b;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.process-list strong {
+  color: #7a1f2b;
+  font-weight: 600;
+}
+
+.inline-link {
+  color: #7a1f2b;
+  text-decoration: none;
+  font-weight: 600;
+  border-bottom: 1px solid #7a1f2b;
+}
+
+.inline-link:hover {
+  border-bottom-color: #5a151f;
+  color: #5a151f;
+}
