@@ -3,6 +3,7 @@ import WhatsAppFloat from '@/components/WhatsAppFloat'
 import Chatbot from '@/components/Chatbot'
 import './globals.css'
 import './enhancements.css'
+import './mobile-fixes.css'
 
 export const metadata: Metadata = {
   title: 'Pakistan Business Forum® – Strategic Policy & Research Function',
