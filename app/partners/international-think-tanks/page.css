@@ -27,32 +27,21 @@
   width: 100%;
   margin-bottom: var(--spacing-sm);
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  min-height: 120px;
-}
-
-.partner-logo-placeholder {
-  width: 120px;
-  height: 120px;
-  background: #f1eeeb;
-  border: 2px solid #e6ded8;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 48px;
-  font-weight: 600;
-  color: #7a1f2b;
+  min-height: 64px;
 }
 
 .partner-logo-image {
-  width: 120px;
-  height: 120px;
+  width: 56px;
+  height: 56px;
   object-fit: contain;
-  border-radius: 8px;
+  border-radius: 12px;
   display: block;
-  background: transparent;
+  background: #f8f6f3;
+  border: 1px solid rgba(122, 31, 43, 0.1);
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
 }
 
 .partner-card h3 {

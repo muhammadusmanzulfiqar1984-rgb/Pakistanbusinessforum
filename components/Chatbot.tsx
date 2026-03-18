@@ -119,8 +119,8 @@ const faqData: FAQ[] = [
   },
   {
     question: 'When was the Forum established?',
-    answer: 'Pakistan Business Forum — Strategic Policy & Research Function was established in 2020 as an independent strategic policy and research platform. Key milestones: 2021 - Structural definition and research protocols, 2022 - Research orientation and practice areas, 2023 - Institutional safeguards and governance frameworks, 2024 - Strategic consolidation and expansion, Present - Ongoing commitment to evidence-based policy analysis.',
-    keywords: ['established', 'founded', 'when', 'history', 'timeline', '2020', 'formation']
+    answer: 'Pakistan Business Forum — Strategic Policy & Research Function was established in 2016 as an independent strategic policy and research platform. Key milestones: 2016 - Founding and establishment, 2017 - Initial research agenda and practice areas, 2018 - Structural definition and research protocols, 2019 - Regional engagement expansion, 2020 - Research orientation and thematic focus, 2021 - Institutional safeguards and governance frameworks, 2022 - Strategic consolidation and expansion, 2023 - International partnerships formalised, 2024 - Strategic advisory maturation, Present - Ongoing commitment to evidence-based policy analysis.',
+    keywords: ['established', 'founded', 'when', 'history', 'timeline', '2016', 'formation']
   }
 ]
 

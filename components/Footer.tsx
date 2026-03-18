@@ -23,13 +23,13 @@ export default function Footer() {
           <span className="footer-maroon">Pakistan Business Forum<span className="trademark">®</span> — Strategic Policy & Research Function</span>. Independent analytical platform producing evidence-based policy, regulatory, and economic research.
           </p>
           <p className="footer-line">
-          <span className="footer-maroon">© 2022–2026 Pakistan Business Forum<span className="trademark">®</span>. All rights reserved.</span> Informational and academic purposes only; no lobbying, political advocacy, legal representation, or advisory services unless expressly stated. Domain names and online identifiers administered under applicable registration frameworks.
+          <span className="footer-maroon">© 2016–2026 Pakistan Business Forum<span className="trademark">®</span>. All rights reserved.</span> Informational and academic purposes only; no lobbying, political advocacy, legal representation, or advisory services unless expressly stated. Domain names and online identifiers administered under applicable registration frameworks.
         </p>
         <ul className="footer-tabs" aria-label="Footer links">
           <li><Link href="/become-a-member">Membership</Link></li>
           <li><Link href="/events">Events</Link></li>
           <li><Link href="/partners">Global Partners</Link></li>
-          <li><Link href="/partners/local-partners">Local Partners</Link></li>
+          {/* TEMPORARILY DISABLED - uncomment to restore: <li><Link href="/partners/local-partners">Local Partners</Link></li> */}
           <li><Link href="/work-with-us">Work with us</Link></li>
           <li><Link href="/accessibility">Accessibility</Link></li>
           <li><Link href="/cookie-settings">Cookie settings</Link></li>

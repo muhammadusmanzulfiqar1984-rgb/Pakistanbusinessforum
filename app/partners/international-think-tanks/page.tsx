@@ -14,7 +14,7 @@ export default function InternationalThinkTanks() {
       location: 'Washington, D.C., United States',
       description: 'A leading think tank conducting research and policy analysis on governance, economics, foreign policy, and global development.',
       website: 'https://www.brookings.edu',
-      logo: '/images/partners/international-think-tanks/brookings-institution.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=brookings.edu&sz=128'
     },
     {
       slug: 'carnegie-endowment',
@@ -22,7 +22,7 @@ export default function InternationalThinkTanks() {
       location: 'Washington, D.C., United States',
       description: 'A global think tank dedicated to advancing cooperation between nations and promoting active international engagement.',
       website: 'https://carnegieendowment.org',
-      logo: '/images/partners/international-think-tanks/carnegie-endowment.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=carnegieendowment.org&sz=128'
     },
     {
       slug: 'chatham-house',
@@ -30,7 +30,7 @@ export default function InternationalThinkTanks() {
       location: 'London, United Kingdom',
       description: 'The Royal Institute of International Affairs, providing independent analysis on global affairs, policy challenges, and governance issues.',
       website: 'https://www.chathamhouse.org',
-      logo: '/images/partners/international-think-tanks/chatham-house.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=chathamhouse.org&sz=128'
     },
     {
       slug: 'csis',
@@ -38,7 +38,7 @@ export default function InternationalThinkTanks() {
       location: 'Washington, D.C., United States',
       description: 'A bipartisan policy research organization focusing on defense, security, international relations, and economic policy.',
       website: 'https://www.csis.org',
-      logo: '/images/partners/international-think-tanks/csis.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=csis.org&sz=128'
     },
     {
       slug: 'cato-institute',
@@ -46,7 +46,7 @@ export default function InternationalThinkTanks() {
       location: 'Washington, D.C., United States',
       description: 'A public policy research organization dedicated to the principles of individual liberty, limited government, and free markets.',
       website: 'https://www.cato.org',
-      logo: '/images/partners/international-think-tanks/cato-institute.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=cato.org&sz=128'
     },
     {
       slug: 'peterson-institute',
@@ -54,7 +54,7 @@ export default function InternationalThinkTanks() {
       location: 'Washington, D.C., United States',
       description: 'A private, nonprofit research institution focused on international economic policy research and analysis.',
       website: 'https://www.piie.com',
-      logo: '/images/partners/international-think-tanks/peterson-institute.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=piie.com&sz=128'
     }
   ]
 

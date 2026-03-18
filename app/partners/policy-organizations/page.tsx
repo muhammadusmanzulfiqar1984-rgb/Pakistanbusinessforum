@@ -14,7 +14,7 @@ export default function PolicyOrganizations() {
       location: 'Washington, D.C., United States',
       description: 'International financial institution providing loans and grants to governments for development projects and policy reforms.',
       website: 'https://www.worldbank.org',
-      logo: '/images/partners/policy-organizations/world-bank.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=worldbank.org&sz=128'
     },
     {
       slug: 'international-monetary-fund',
@@ -22,7 +22,7 @@ export default function PolicyOrganizations() {
       location: 'Washington, D.C., United States',
       description: 'International organization working to foster global monetary cooperation, secure financial stability, and promote sustainable economic growth.',
       website: 'https://www.imf.org',
-      logo: '/images/partners/policy-organizations/international-monetary-fund.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=imf.org&sz=128'
     },
     {
       slug: 'oecd',
@@ -30,7 +30,7 @@ export default function PolicyOrganizations() {
       location: 'Paris, France',
       description: 'International organization promoting policies that improve economic and social well-being of people around the world.',
       website: 'https://www.oecd.org',
-      logo: '/images/partners/policy-organizations/oecd.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=oecd.org&sz=128'
     },
     {
       slug: 'undp',
@@ -38,7 +38,7 @@ export default function PolicyOrganizations() {
       location: 'New York, United States',
       description: 'UN agency working to eradicate poverty and reduce inequalities through sustainable development and policy support.',
       website: 'https://www.undp.org',
-      logo: '/images/partners/policy-organizations/undp.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=undp.org&sz=128'
     },
     {
       slug: 'asian-development-bank',
@@ -46,7 +46,7 @@ export default function PolicyOrganizations() {
       location: 'Manila, Philippines',
       description: 'Regional development bank focused on reducing poverty and promoting sustainable development in Asia and the Pacific.',
       website: 'https://www.adb.org',
-      logo: '/images/partners/policy-organizations/asian-development-bank.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=adb.org&sz=128'
     },
     {
       slug: 'world-economic-forum',
@@ -54,7 +54,7 @@ export default function PolicyOrganizations() {
       location: 'Geneva, Switzerland',
       description: 'International organization for public-private cooperation, engaging political, business, and other leaders to shape global, regional, and industry agendas.',
       website: 'https://www.weforum.org',
-      logo: '/images/partners/policy-organizations/world-economic-forum.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=weforum.org&sz=128'
     },
     {
       slug: 'un-escwa',
@@ -62,7 +62,7 @@ export default function PolicyOrganizations() {
       location: 'Beirut, Lebanon',
       description: 'UN regional commission promoting economic and social development through regional cooperation and policy coordination.',
       website: 'https://www.unescwa.org',
-      logo: '/images/partners/policy-organizations/un-escwa.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=unescwa.org&sz=128'
     },
     {
       slug: 'unescap',
@@ -70,7 +70,7 @@ export default function PolicyOrganizations() {
       location: 'Bangkok, Thailand',
       description: 'UN regional commission promoting regional cooperation and integration for sustainable development in Asia and the Pacific.',
       website: 'https://www.unescap.org',
-      logo: '/images/partners/policy-organizations/unescap.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=unescap.org&sz=128'
     }
   ]
 

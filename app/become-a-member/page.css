@@ -32,3 +32,9 @@
   font-weight: 400;
   font-size: var(--font-size-base);
 }
+
+@media (max-width: 640px) {
+  .membership-grid {
+    grid-template-columns: 1fr;
+  }
+}

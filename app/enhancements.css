@@ -198,6 +198,38 @@ html {
   }
 }
 
+/* ── Scroll Reveal ── */
+.reveal-item {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.65s cubic-bezier(0.4, 0, 0.2, 1), transform 0.65s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.reveal-item.revealed {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Animated Section Title Underline ── */
+@keyframes growLine {
+  from { width: 0; }
+  to   { width: 60px; }
+}
+
+.section-title::after {
+  animation: growLine 0.6s cubic-bezier(0.4, 0, 0.2, 1) 0.3s both;
+}
+
+/* ── Nav Glow Pulse on Active Tab ── */
+@keyframes navGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(122, 31, 43, 0); }
+  50%       { box-shadow: 0 0 12px 3px rgba(122, 31, 43, 0.45); }
+}
+
+.nav-link.active {
+  animation: navGlow 2.8s ease-in-out infinite;
+}
+
 .fade-in-up {
   animation: fadeInUp 0.6s ease-out;
 }

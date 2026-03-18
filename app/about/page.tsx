@@ -91,24 +91,40 @@ export default function About() {
                     <h3>Institutional Timeline</h3>
                     <div className="timeline-vertical" aria-label="Institutional continuity">
                       <div className="timeline-item">
+                        <span className="timeline-year">2016</span>
+                        <span className="timeline-text">Establishment of Pakistan Business Forum® as an independent policy and research platform with a clear non-lobbying, non-political mandate</span>
+                      </div>
+                      <div className="timeline-item">
+                        <span className="timeline-year">2017</span>
+                        <span className="timeline-text">Early development — initial research agenda formulated and core practice areas defined</span>
+                      </div>
+                      <div className="timeline-item">
+                        <span className="timeline-year">2018</span>
+                        <span className="timeline-text">Structural definition and establishment of research protocols, analytical frameworks, and methodological standards</span>
+                      </div>
+                      <div className="timeline-item">
+                        <span className="timeline-year">2019</span>
+                        <span className="timeline-text">Regional engagement expansion and development of policy analysis capabilities across governance and economic domains</span>
+                      </div>
+                      <div className="timeline-item">
                         <span className="timeline-year">2020</span>
-                        <span className="timeline-text">Establishment of Pakistan Business Forum — Strategic Policy & Research Function as an independent strategic policy and research platform</span>
+                        <span className="timeline-text">Research orientation and development of specialized practice areas and thematic focus areas</span>
                       </div>
                       <div className="timeline-item">
                         <span className="timeline-year">2021</span>
-                        <span className="timeline-text">Structural definition and establishment of research protocols and analytical frameworks</span>
-                      </div>
-                      <div className="timeline-item">
-                        <span className="timeline-year">2022</span>
-                        <span className="timeline-text">Research orientation and development of specialized practice areas and thematic focus</span>
-                      </div>
-                      <div className="timeline-item">
-                        <span className="timeline-year">2023</span>
                         <span className="timeline-text">Institutional safeguards and implementation of governance frameworks ensuring research independence</span>
                       </div>
                       <div className="timeline-item">
-                        <span className="timeline-year">2024</span>
+                        <span className="timeline-year">2022</span>
                         <span className="timeline-text">Strategic consolidation and expansion of research portfolio and institutional partnerships</span>
+                      </div>
+                      <div className="timeline-item">
+                        <span className="timeline-year">2023</span>
+                        <span className="timeline-text">Institutional partnerships deepened — international think tank and academic collaborations formalised</span>
+                      </div>
+                      <div className="timeline-item">
+                        <span className="timeline-year">2024</span>
+                        <span className="timeline-text">Strategic advisory function matured and practice area specialisation strengthened across all research domains</span>
                       </div>
                       <div className="timeline-item">
                         <span className="timeline-year">Present</span>

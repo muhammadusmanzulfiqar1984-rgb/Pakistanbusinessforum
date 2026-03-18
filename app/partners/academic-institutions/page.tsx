@@ -13,7 +13,7 @@ export default function AcademicInstitutions() {
       location: 'Oxford, United Kingdom',
       description: 'Leading research university with extensive programs in public policy, economics, and governance studies.',
       website: 'https://www.ox.ac.uk',
-      logo: '/images/partners/academic-institutions/oxford-university.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=ox.ac.uk&sz=128'
     },
     {
       slug: 'cambridge-university',
@@ -21,7 +21,7 @@ export default function AcademicInstitutions() {
       location: 'Cambridge, United Kingdom',
       description: 'Prestigious research institution with strong focus on policy analysis, economic research, and institutional studies.',
       website: 'https://www.cam.ac.uk',
-      logo: '/images/partners/academic-institutions/cambridge-university.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=cam.ac.uk&sz=128'
     },
     {
       slug: 'harvard-university',
@@ -29,7 +29,7 @@ export default function AcademicInstitutions() {
       location: 'Cambridge, Massachusetts, United States',
       description: 'World-renowned university with extensive research programs in public policy, governance, and economic analysis.',
       website: 'https://www.harvard.edu',
-      logo: '/images/partners/academic-institutions/harvard-university.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=harvard.edu&sz=128'
     },
     {
       slug: 'lse',
@@ -37,7 +37,7 @@ export default function AcademicInstitutions() {
       location: 'London, United Kingdom',
       description: 'Leading social science institution specializing in economics, public policy, and governance research.',
       website: 'https://www.lse.ac.uk',
-      logo: '/images/partners/academic-institutions/lse.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=lse.ac.uk&sz=128'
     },
     {
       slug: 'stanford-university',
@@ -45,7 +45,7 @@ export default function AcademicInstitutions() {
       location: 'Stanford, California, United States',
       description: 'Research university with strong programs in public policy, economics, and institutional analysis.',
       website: 'https://www.stanford.edu',
-      logo: '/images/partners/academic-institutions/stanford-university.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=stanford.edu&sz=128'
     },
     {
       slug: 'columbia-university',
@@ -53,7 +53,7 @@ export default function AcademicInstitutions() {
       location: 'New York, United States',
       description: 'Research institution with extensive programs in public affairs, economic policy, and governance studies.',
       website: 'https://www.columbia.edu',
-      logo: '/images/partners/academic-institutions/columbia-university.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=columbia.edu&sz=128'
     },
     {
       slug: 'georgetown-university',
@@ -61,7 +61,7 @@ export default function AcademicInstitutions() {
       location: 'Washington, D.C., United States',
       description: 'University with strong focus on public policy, international affairs, and governance research.',
       website: 'https://www.georgetown.edu',
-      logo: '/images/partners/academic-institutions/georgetown-university.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=georgetown.edu&sz=128'
     },
     {
       slug: 'nus',
@@ -69,7 +69,7 @@ export default function AcademicInstitutions() {
       location: 'Singapore',
       description: 'Leading Asian university with extensive research programs in public policy, economics, and governance studies.',
       website: 'https://www.nus.edu.sg',
-      logo: '/images/partners/academic-institutions/nus.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=nus.edu.sg&sz=128'
     },
     {
       slug: 'anu',
@@ -77,7 +77,7 @@ export default function AcademicInstitutions() {
       location: 'Canberra, Australia',
       description: 'Research university with strong programs in public policy, economics, and Asia-Pacific studies.',
       website: 'https://www.anu.edu.au',
-      logo: '/images/partners/academic-institutions/anu.svg'
+      logo: 'https://www.google.com/s2/favicons?domain=anu.edu.au&sz=128'
     }
   ]
 

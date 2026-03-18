@@ -23,11 +23,12 @@ export default function Partners() {
       title: 'Policy Organizations',
       description: 'Collaborative relationships with policy research organizations, government institutions, and international bodies engaged in evidence-based policy development.'
     },
-    {
-      href: '/partners/local-partners',
-      title: 'Local Partners',
-      description: 'Profiles of national institutions and export-trade stakeholders relevant to Pakistan’s commerce, trade facilitation, and development priorities, aligned with research-driven engagement.'
-    }
+    // TEMPORARILY DISABLED - uncomment to restore
+    // {
+    //   href: '/partners/local-partners',
+    //   title: 'Local Partners',
+    //   description: 'Profiles of national institutions and export-trade stakeholders relevant to Pakistan\'s commerce, trade facilitation, and development priorities, aligned with research-driven engagement.'
+    // }
   ]
 
   return (
