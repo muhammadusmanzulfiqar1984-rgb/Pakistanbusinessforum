@@ -3,6 +3,7 @@ import Footer from '@/components/Footer'
 import PageHeader from '@/components/PageHeader'
 import Section from '@/components/Section'
 import InstitutionalDiagram from '@/components/InstitutionalDiagram'
+import ProcessFlow from '@/components/ProcessFlow'
 import './page.css'
 
 export default function PublicAffairsPolicyAdvisory() {
@@ -75,6 +76,17 @@ export default function PublicAffairsPolicyAdvisory() {
                 evidence-based policy discourse.
               </li>
             </ul>
+          </Section>
+
+          <Section title="Our Six-Step Engagement Approach">
+            <ProcessFlow steps={[
+              { num: '01', title: 'Identification', desc: 'Identification of decision makers and influencers, and building of networks for long-term policy engagement and institutional influence.' },
+              { num: '02', title: 'Engagement', desc: 'Active engagement in the decision-making process and systematic follow-up of policy procedures within institutional frameworks.' },
+              { num: '03', title: 'Elaboration', desc: 'Development of arguments and communication tools adapted to the political context, supporting evidence-based policy positions.' },
+              { num: '04', title: 'Strategic Advice', desc: 'Structured advisory support to ensure that research-based propositions are taken into account by public authorities and key stakeholders.' },
+              { num: '05', title: 'Coalition Building', desc: 'Facilitation of coalition formation and management, bringing together aligned institutions and stakeholders around shared policy objectives.' },
+              { num: '06', title: 'Event Organisation', desc: 'Organisation of targeted meetings, roundtables, colloquia, conferences, consultations, and policy forums to advance substantive policy dialogue.' },
+            ]} />
           </Section>
 
           <Section title="Policy Relevance">

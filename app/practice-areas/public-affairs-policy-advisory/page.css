@@ -65,3 +65,69 @@
   margin-bottom: 0;
   font-size: var(--font-size-base);
 }
+
+/* ── ProcessFlow ── */
+.pf-wrap {
+  display: flex;
+  flex-direction: column;
+  max-width: 680px;
+  margin: 8px 0 0 0;
+}
+.pf-step {
+  display: flex;
+  gap: 20px;
+  opacity: 0;
+  transform: translateX(-16px);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.pf-step-visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+.pf-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+  width: 40px;
+}
+.pf-num {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--maroon);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  letter-spacing: 0.04em;
+}
+.pf-line {
+  width: 2px;
+  flex: 1;
+  min-height: 32px;
+  background: #e2e8f0;
+  margin: 4px 0;
+  transition: background 0.4s ease;
+}
+.pf-line-active {
+  background: var(--maroon);
+}
+.pf-body {
+  padding-bottom: 28px;
+  padding-top: 8px;
+}
+.pf-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--maroon);
+  margin-bottom: 5px;
+}
+.pf-desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.65;
+}

@@ -81,6 +81,36 @@ export default function Home() {
             </Section>
           </ScrollReveal>
 
+          <ScrollReveal delay={90}>
+            <Section title="Latest From PBF®">
+              <div className="pub-strip">
+                <Link href="/media/publications" className="pub-card">
+                  <span className="pub-tag">Policy Brief</span>
+                  <strong className="pub-title">Regulatory Reform Agenda: Pakistan's Institutional Readiness</strong>
+                  <span className="pub-meta">March 2026 · Public Affairs & Policy</span>
+                  <span className="pub-arrow">Read →</span>
+                </Link>
+                <Link href="/strategic-advisory" className="pub-card">
+                  <span className="pub-tag">Strategic Brief</span>
+                  <strong className="pub-title">Fifth Generation Warfare: Preparing Institutions for the Information Age</strong>
+                  <span className="pub-meta">March 2026 · Strategic Advisory</span>
+                  <span className="pub-arrow">Read →</span>
+                </Link>
+                <Link href="/practice-areas/economic-affairs" className="pub-card">
+                  <span className="pub-tag">Research Note</span>
+                  <strong className="pub-title">Bilateral Economic Relations and Employment Generation in Developing Economies</strong>
+                  <span className="pub-meta">February 2026 · Economic Affairs</span>
+                  <span className="pub-arrow">Read →</span>
+                </Link>
+                <Link href="/media/knowledge-outputs" className="pub-card pub-card-cta">
+                  <span className="pub-cta-label">View All</span>
+                  <strong className="pub-cta-title">Publications & Knowledge Outputs</strong>
+                  <span className="pub-arrow">Browse Library →</span>
+                </Link>
+              </div>
+            </Section>
+          </ScrollReveal>
+
           <ScrollReveal delay={100}>
             <Section title="Analytical Approach">
               <p>

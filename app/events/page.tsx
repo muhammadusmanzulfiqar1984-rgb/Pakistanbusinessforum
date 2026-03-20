@@ -4,10 +4,15 @@ import PageHeader from '@/components/PageHeader'
 import Section from '@/components/Section'
 import { CardGrid } from '@/components/CardGrid'
 import Link from 'next/link'
+import { getEvents, type SanityEvent } from '@/lib/sanity'
 import './page.css'
 
-export default function Events() {
-  const upcomingEvents = [
+export const revalidate = 3600
+
+export default async function Events() {
+  const sanityEvents = await getEvents()
+
+  let upcomingEvents = [
     {
       title: 'Governance and Institutional Reform Conference 2026',
       date: 'March 15-16, 2026',
@@ -66,7 +71,7 @@ export default function Events() {
     }
   ]
 
-  const previousEvents = [
+  let previousEvents = [
     {
       title: 'Policy Research Conference 2025',
       date: 'November 2025',
@@ -93,7 +98,7 @@ export default function Events() {
     }
   ]
 
-  const previousDelegations = [
+  let previousDelegations = [
     {
       title: 'Delegation to Brookings Institution',
       date: 'December 2025',
@@ -120,7 +125,7 @@ export default function Events() {
     }
   ]
 
-  const upcomingDelegations = [
+  let upcomingDelegations = [
     {
       title: 'Delegation to Carnegie Endowment',
       date: 'April 15-18, 2026',
@@ -140,6 +145,23 @@ export default function Events() {
       description: 'Research delegation to European think tanks focusing on comparative governance and policy analysis.'
     }
   ]
+
+  // Override with Sanity CMS data if available
+  if (sanityEvents && sanityEvents.length > 0) {
+    const fromSanity = (cat: SanityEvent['category']) =>
+      sanityEvents.filter(e => e.category === cat).map(e => ({
+        title: e.title, date: e.date, location: e.location,
+        description: e.description, type: e.type || ''
+      }))
+    const u = fromSanity('upcoming')
+    const p = fromSanity('past')
+    const pd = fromSanity('pastDelegation')
+    const ud = fromSanity('upcomingDelegation')
+    if (u.length) upcomingEvents = u
+    if (p.length) previousEvents = p
+    if (pd.length) previousDelegations = pd
+    if (ud.length) upcomingDelegations = ud
+  }
 
   return (
     <>

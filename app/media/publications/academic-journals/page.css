@@ -22,7 +22,7 @@
 }
 
 .publication-paper:hover {
-  box-shadow: 0 4px 12px rgba(122, 31, 43, 0.1);
+  box-shadow: 0 4px 12px rgba(15, 36, 99, 0.1);
   border-left-color: var(--color-maroon);
 }
 

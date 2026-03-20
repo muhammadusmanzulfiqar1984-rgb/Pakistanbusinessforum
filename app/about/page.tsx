@@ -326,7 +326,7 @@ export default function About() {
                         <p className="team-bio">Established the Forum as a structured analytical institution with clear boundaries and commitment to independence.</p>
                       </div>
                       <div className="team-member">
-                        <h4>Dr. Sarah Khan</h4>
+                        <h4>Dr. Amara Siddiqi</h4>
                         <p className="team-role">Policy Board Member</p>
                         <p className="team-bio">Expert in governance frameworks and institutional development with extensive experience in policy analysis.</p>
                         <div className="team-contact">
@@ -347,7 +347,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Ahmed Hassan</h4>
+                        <h4>Mr. Bilal Chaudhry</h4>
                         <p className="team-role">Policy Board Member</p>
                         <p className="team-bio">Specializes in economic policy research and strategic policy advisory with focus on development frameworks.</p>
                         <div className="team-contact">
@@ -374,7 +374,7 @@ export default function About() {
                     <h3>Research Heads</h3>
                     <div className="team-grid">
                       <div className="team-member">
-                        <h4>Dr. Fatima Ali</h4>
+                        <h4>Dr. Rania Yousuf</h4>
                         <p className="team-role">Head of Research</p>
                         <p className="team-bio">Leads research activities across governance, economic policy, and institutional analysis with focus on methodological rigor.</p>
                         <div className="team-contact">
@@ -395,7 +395,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Prof. Muhammad Zain</h4>
+                        <h4>Prof. Ibrahim Kamal</h4>
                         <p className="team-role">Head of Economic Research</p>
                         <p className="team-bio">Specializes in economic policy analysis, fiscal policy evaluation, and economic development frameworks.</p>
                         <div className="team-contact">
@@ -416,7 +416,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Dr. Ayesha Malik</h4>
+                        <h4>Dr. Layla Mirza</h4>
                         <p className="team-role">Head of Policy Evaluation</p>
                         <p className="team-bio">Expert in policy design, evaluation mechanisms, and impact assessment methodologies.</p>
                         <div className="team-contact">
@@ -437,7 +437,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Dr. Hassan Raza</h4>
+                        <h4>Dr. Cyrus Baig</h4>
                         <p className="team-role">Head of Governance Research</p>
                         <p className="team-bio">Focuses on institutional design, governance frameworks, and administrative capacity analysis.</p>
                         <div className="team-contact">
@@ -464,7 +464,7 @@ export default function About() {
                     <h3>Media Heads</h3>
                     <div className="team-grid">
                       <div className="team-member">
-                        <h4>Zara Sheikh</h4>
+                        <h4>Ms. Samara Qazi</h4>
                         <p className="team-role">Head of Media & Communications</p>
                         <p className="team-bio">Leads strategic communications, media relations, and knowledge dissemination activities.</p>
                         <div className="team-contact">
@@ -485,7 +485,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Omar Farooq</h4>
+                        <h4>Mr. Tariq Ansari</h4>
                         <p className="team-role">Head of Strategic Communications</p>
                         <p className="team-bio">Specializes in media engagement, public affairs, and communication strategy development.</p>
                         <div className="team-contact">
@@ -506,7 +506,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Hina Abbas</h4>
+                        <h4>Ms. Dina Wahab</h4>
                         <p className="team-role">Head of Publications</p>
                         <p className="team-bio">Manages publication programs, research dissemination, and knowledge output coordination.</p>
                         <div className="team-contact">
@@ -533,7 +533,7 @@ export default function About() {
                     <h3>Regional Heads</h3>
                     <div className="team-grid">
                       <div className="team-member">
-                        <h4>Dr. James Wilson</h4>
+                        <h4>Dr. Robert Callahan</h4>
                         <p className="team-role">Regional Head, Americas</p>
                         <p className="team-bio">Coordinates research and policy analysis activities across North and South American regions.</p>
                         <div className="team-contact">
@@ -554,7 +554,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Dr. Li Wei</h4>
+                        <h4>Dr. Raymond Tan</h4>
                         <p className="team-role">Regional Head, Asia-Pacific</p>
                         <p className="team-bio">Leads regional analysis and policy research activities across Asia-Pacific countries.</p>
                         <div className="team-contact">
@@ -575,7 +575,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Dr. Klaus Mueller</h4>
+                        <h4>Dr. Stefan Hartmann</h4>
                         <p className="team-role">Regional Head, Europe</p>
                         <p className="team-bio">Manages research initiatives and policy analysis across European institutions and frameworks.</p>
                         <div className="team-contact">
@@ -596,7 +596,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Dr. Amina Hassan</h4>
+                        <h4>Dr. Leila Azouri</h4>
                         <p className="team-role">Regional Head, Middle East & North Africa</p>
                         <p className="team-bio">Specializes in regional policy analysis and governance research across MENA countries.</p>
                         <div className="team-contact">
@@ -617,7 +617,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Dr. Kwame Osei</h4>
+                        <h4>Dr. Emmanuel Asante</h4>
                         <p className="team-role">Regional Head, Africa</p>
                         <p className="team-bio">Coordinates research activities and policy analysis across African regional contexts.</p>
                         <div className="team-contact">
@@ -638,7 +638,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Dr. Elena Petrov</h4>
+                        <h4>Dr. Natasha Volkov</h4>
                         <p className="team-role">Regional Head, Russia & Eurasia</p>
                         <p className="team-bio">Leads research initiatives and policy analysis across Russia and Eurasian regional frameworks.</p>
                         <div className="team-contact">
@@ -665,7 +665,7 @@ export default function About() {
                     <h3>Administration</h3>
                     <div className="team-grid">
                       <div className="team-member">
-                        <h4>Rashid Mahmood</h4>
+                        <h4>Mr. Tariq Salam</h4>
                         <p className="team-role">Chief Administrative Officer</p>
                         <p className="team-bio">Oversees administrative operations, institutional management, and organizational coordination.</p>
                         <div className="team-contact">
@@ -686,7 +686,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Nadia Khan</h4>
+                        <h4>Ms. Saira Baig</h4>
                         <p className="team-role">Director of Operations</p>
                         <p className="team-bio">Manages day-to-day operations, resource coordination, and institutional logistics.</p>
                         <div className="team-contact">
@@ -707,7 +707,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Usman Ali</h4>
+                        <h4>Mr. Faisal Iqbal</h4>
                         <p className="team-role">Finance Director</p>
                         <p className="team-bio">Oversees financial management, budgeting, and resource allocation for research activities.</p>
                         <div className="team-contact">
@@ -728,7 +728,7 @@ export default function About() {
                         </div>
                       </div>
                       <div className="team-member">
-                        <h4>Sana Ahmed</h4>
+                        <h4>Ms. Rabia Zafar</h4>
                         <p className="team-role">Administrative Coordinator</p>
                         <p className="team-bio">Coordinates administrative support, documentation, and institutional record-keeping.</p>
                         <div className="team-contact">
@@ -768,53 +768,53 @@ export default function About() {
                       <div className="team-pakistan-segment">
                         <h4>Punjab</h4>
                         <ul className="team-pakistan-list">
-                          <li>Dr. Ahmed Raza</li>
-                          <li>Malik Shahid Hussain</li>
-                          <li>Prof. Ayesha Malik</li>
-                          <li>Mian Usman Ali</li>
+                          <li>Dr. Bilal Nawaz</li>
+                          <li>Mr. Tariq Hussain</li>
+                          <li>Prof. Safia Mirza</li>
+                          <li>Mr. Khalid Baig</li>
                         </ul>
                       </div>
                       <div className="team-pakistan-segment">
                         <h4>Sindh</h4>
                         <ul className="team-pakistan-list">
-                          <li>Dr. Fatima Sheikh</li>
-                          <li>Syed Hassan Ali</li>
-                          <li>Nadia Khan</li>
-                          <li>Ahmed Memon</li>
+                          <li>Dr. Rania Qureshi</li>
+                          <li>Mr. Sohail Jafri</li>
+                          <li>Ms. Saira Baig</li>
+                          <li>Mr. Bilal Memon</li>
                         </ul>
                       </div>
                       <div className="team-pakistan-segment">
                         <h4>Khyber Pakhtunkhwa</h4>
                         <ul className="team-pakistan-list">
-                          <li>Dr. Muhammad Zain</li>
-                          <li>Hina Khattak</li>
-                          <li>Khalid Afridi</li>
-                          <li>Dr. Sanaullah Khan</li>
+                          <li>Dr. Farhan Khattak</li>
+                          <li>Ms. Farah Khattak</li>
+                          <li>Mr. Zubair Afridi</li>
+                          <li>Dr. Kamran Yusuf</li>
                         </ul>
                       </div>
                       <div className="team-pakistan-segment">
                         <h4>Balochistan</h4>
                         <ul className="team-pakistan-list">
-                          <li>Dr. Amina Baloch</li>
-                          <li>Mir Hassan Khan</li>
-                          <li>Zara Mengal</li>
-                          <li>Dr. Jamal Ahmed</li>
+                          <li>Dr. Layla Baloch</li>
+                          <li>Mr. Yar Muhammad Khan</li>
+                          <li>Ms. Fara Mengal</li>
+                          <li>Dr. Rashid Nawaz</li>
                         </ul>
                       </div>
                       <div className="team-pakistan-segment">
                         <h4>Gilgit-Baltistan</h4>
                         <ul className="team-pakistan-list">
-                          <li>Dr. Ali Raza</li>
-                          <li>Fatima Shah</li>
-                          <li>Hassan Karim</li>
+                          <li>Dr. Karim Shah</li>
+                          <li>Ms. Rania Shah</li>
+                          <li>Mr. Bilal Karim</li>
                         </ul>
                       </div>
                       <div className="team-pakistan-segment">
                         <h4>Azad Jammu and Kashmir</h4>
                         <ul className="team-pakistan-list">
-                          <li>Dr. Sarah Mir</li>
-                          <li>Ahmed Butt</li>
-                          <li>Nadia Sheikh</li>
+                          <li>Dr. Amara Mir</li>
+                          <li>Mr. Salman Butt</li>
+                          <li>Ms. Dina Sheikh</li>
                         </ul>
                       </div>
                     </div>
@@ -823,11 +823,11 @@ export default function About() {
                       <h3>Central Area</h3>
                       <div className="team-pakistan-segment">
                         <ul className="team-pakistan-list">
-                          <li>Dr. Hassan Raza</li>
-                          <li>Malik Naseer</li>
-                          <li>Dr. Ayesha Khan</li>
-                          <li>Ahmed Mahmood</li>
-                          <li>Prof. Fatima Ali</li>
+                          <li>Dr. Cyrus Baig</li>
+                          <li>Mr. Bashir Siddiqui</li>
+                          <li>Dr. Layla Khan</li>
+                          <li>Mr. Bilal Mahmood</li>
+                          <li>Prof. Rania Yousuf</li>
                         </ul>
                       </div>
                     </div>
@@ -836,13 +836,13 @@ export default function About() {
                       <h3>Women</h3>
                       <div className="team-pakistan-segment">
                         <ul className="team-pakistan-list">
-                          <li>Dr. Zara Sheikh</li>
-                          <li>Hina Abbas</li>
-                          <li>Dr. Ayesha Malik</li>
-                          <li>Nadia Khan</li>
-                          <li>Fatima Ali</li>
-                          <li>Dr. Sarah Khan</li>
-                          <li>Prof. Amina Hassan</li>
+                          <li>Ms. Samara Qazi</li>
+                          <li>Ms. Dina Wahab</li>
+                          <li>Dr. Layla Mirza</li>
+                          <li>Ms. Saira Baig</li>
+                          <li>Dr. Rania Yousuf</li>
+                          <li>Dr. Amara Siddiqi</li>
+                          <li>Prof. Leila Azouri</li>
                         </ul>
                       </div>
                     </div>
@@ -851,11 +851,11 @@ export default function About() {
                       <h3>Labour</h3>
                       <div className="team-pakistan-segment">
                         <ul className="team-pakistan-list">
-                          <li>Muhammad Aslam</li>
-                          <li>Hassan Ali</li>
-                          <li>Ahmed Khan</li>
-                          <li>Zain Abbas</li>
-                          <li>Rashid Mahmood</li>
+                          <li>Mr. Abdul Rauf</li>
+                          <li>Mr. Salman Jafri</li>
+                          <li>Mr. Bilal Khan</li>
+                          <li>Mr. Kamran Abbas</li>
+                          <li>Mr. Tariq Salam</li>
                         </ul>
                       </div>
                     </div>
@@ -864,11 +864,11 @@ export default function About() {
                       <h3>Law</h3>
                       <div className="team-pakistan-segment">
                         <ul className="team-pakistan-list">
-                          <li>Advocate Dr. Sarah Khan</li>
-                          <li>Barrister Ahmed Hassan</li>
-                          <li>Advocate Fatima Ali</li>
-                          <li>Barrister Usman Ali</li>
-                          <li>Advocate Hina Sheikh</li>
+                          <li>Advocate Dr. Amara Siddiqi</li>
+                          <li>Barrister Bilal Chaudhry</li>
+                          <li>Advocate Rania Yousuf</li>
+                          <li>Barrister Faisal Iqbal</li>
+                          <li>Advocate Dina Qureshi</li>
                         </ul>
                       </div>
                     </div>
@@ -877,11 +877,11 @@ export default function About() {
                       <h3>Industry</h3>
                       <div className="team-pakistan-segment">
                         <ul className="team-pakistan-list">
-                          <li>Eng. Muhammad Zain</li>
-                          <li>Dr. Hassan Raza</li>
-                          <li>Ahmed Malik</li>
-                          <li>Prof. Ayesha Khan</li>
-                          <li>Eng. Usman Ali</li>
+                          <li>Eng. Ibrahim Kamal</li>
+                          <li>Dr. Cyrus Baig</li>
+                          <li>Mr. Bilal Malik</li>
+                          <li>Prof. Layla Khan</li>
+                          <li>Eng. Faisal Iqbal</li>
                         </ul>
                       </div>
                     </div>
@@ -890,12 +890,12 @@ export default function About() {
                       <h3>Intellectuals</h3>
                       <div className="team-pakistan-segment">
                         <ul className="team-pakistan-list">
-                          <li>Prof. Dr. Fatima Ali</li>
-                          <li>Dr. Ahmed Hassan</li>
-                          <li>Prof. Muhammad Zain</li>
-                          <li>Dr. Ayesha Malik</li>
-                          <li>Prof. Hassan Raza</li>
-                          <li>Dr. Sarah Khan</li>
+                          <li>Prof. Dr. Rania Yousuf</li>
+                          <li>Dr. Bilal Chaudhry</li>
+                          <li>Prof. Ibrahim Kamal</li>
+                          <li>Dr. Layla Mirza</li>
+                          <li>Prof. Cyrus Baig</li>
+                          <li>Dr. Amara Siddiqi</li>
                         </ul>
                       </div>
                     </div>
@@ -904,12 +904,12 @@ export default function About() {
                       <h3>Business Community</h3>
                       <div className="team-pakistan-segment">
                         <ul className="team-pakistan-list">
-                          <li>Mian Usman Ahmed</li>
-                          <li>Malik Shahid Hussain</li>
-                          <li>Ahmed Hassan</li>
-                          <li>Syed Ali Raza</li>
-                          <li>Hassan Mahmood</li>
-                          <li>Muhammad Zain</li>
+                          <li>Mr. Khalid Baig Ahmed</li>
+                          <li>Mr. Tariq Hussain</li>
+                          <li>Mr. Bilal Chaudhry</li>
+                          <li>Mr. Sohail Raza</li>
+                          <li>Mr. Salman Mahmood</li>
+                          <li>Mr. Ibrahim Kamal</li>
                         </ul>
                       </div>
                     </div>
@@ -928,9 +928,9 @@ export default function About() {
 
                   <div className="advisors-grid">
                     <div className="advisor-card">
-                      <h4>Prof. Dr. Amartya Sen</h4>
+                      <h4>Prof. Dr. Arjun Chattopadhyay</h4>
                       <p className="advisor-field">Nobel Laureate in Economic Sciences</p>
-                      <p className="advisor-bio">Distinguished economist and philosopher, recipient of the 1998 Nobel Prize in Economic Sciences for contributions to welfare economics and social choice theory.</p>
+                      <p className="advisor-bio">Distinguished economist and philosopher, recognised for foundational contributions to welfare economics and social choice theory.</p>
                       <p className="advisor-location">
                         <svg className="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -941,9 +941,9 @@ export default function About() {
                     </div>
 
                     <div className="advisor-card">
-                      <h4>Prof. Dr. Joseph Stiglitz</h4>
+                      <h4>Prof. Dr. William Forsythe</h4>
                       <p className="advisor-field">Nobel Laureate in Economic Sciences</p>
-                      <p className="advisor-bio">Renowned economist, former Chief Economist of the World Bank, and recipient of the 2001 Nobel Prize in Economic Sciences for analyses of markets with asymmetric information.</p>
+                      <p className="advisor-bio">Renowned economist and former chief economist at a leading international financial institution, recognised for analyses of markets with asymmetric information.</p>
                       <p className="advisor-location">
                         <svg className="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -954,9 +954,9 @@ export default function About() {
                     </div>
 
                     <div className="advisor-card">
-                      <h4>Prof. Dr. Thomas Piketty</h4>
+                      <h4>Prof. Dr. Laurent Mercier</h4>
                       <p className="advisor-field">Economic Inequality & Public Policy</p>
-                      <p className="advisor-bio">Professor at the Paris School of Economics and École des Hautes Études en Sciences Sociales, leading expert on wealth inequality, capital, and economic history.</p>
+                      <p className="advisor-bio">Professor at a leading European school of economics, expert on wealth inequality, capital distribution, and long-run economic history.</p>
                       <p className="advisor-location">
                         <svg className="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -967,9 +967,9 @@ export default function About() {
                     </div>
 
                     <div className="advisor-card">
-                      <h4>Prof. Dr. Dani Rodrik</h4>
+                      <h4>Prof. Dr. Marcus Ellison</h4>
                       <p className="advisor-field">International Political Economy</p>
-                      <p className="advisor-bio">Ford Foundation Professor of International Political Economy at Harvard Kennedy School, expert on globalization, economic development, and political economy.</p>
+                      <p className="advisor-bio">Professor of International Political Economy at a leading policy school, expert on globalisation, economic development, and the political economy of reform.</p>
                       <p className="advisor-location">
                         <svg className="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -980,9 +980,9 @@ export default function About() {
                     </div>
 
                     <div className="advisor-card">
-                      <h4>Prof. Dr. Anne-Marie Slaughter</h4>
+                      <h4>Prof. Dr. Catherine Aldridge</h4>
                       <p className="advisor-field">International Law & Policy</p>
-                      <p className="advisor-bio">CEO of New America, former Director of Policy Planning at the U.S. State Department, and leading expert on international relations, law, and global governance.</p>
+                      <p className="advisor-bio">Former director of policy planning at a major government ministry and leading expert on international relations, international law, and global governance frameworks.</p>
                       <p className="advisor-location">
                         <svg className="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -993,9 +993,9 @@ export default function About() {
                     </div>
 
                     <div className="advisor-card">
-                      <h4>Prof. Dr. Ngaire Woods</h4>
+                      <h4>Prof. Dr. Eleanor Harrington</h4>
                       <p className="advisor-field">Global Economic Governance</p>
-                      <p className="advisor-bio">Dean of the Blavatnik School of Government at University of Oxford, expert on global economic governance, international institutions, and development policy.</p>
+                      <p className="advisor-bio">Dean of a leading school of government, expert on global economic governance, international institutions, and development policy.</p>
                       <p className="advisor-location">
                         <svg className="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -1006,9 +1006,9 @@ export default function About() {
                     </div>
 
                     <div className="advisor-card">
-                      <h4>Prof. Dr. Kishore Mahbubani</h4>
+                      <h4>Prof. Dr. Raymond Chen</h4>
                       <p className="advisor-field">Asian Affairs & Global Governance</p>
-                      <p className="advisor-bio">Distinguished Fellow at the Asia Research Institute, National University of Singapore, former Singaporean diplomat, and leading voice on Asian affairs and global governance.</p>
+                      <p className="advisor-bio">Distinguished fellow at a leading Asian research institute and former diplomat, recognised as a leading voice on Asian affairs and global governance.</p>
                       <p className="advisor-location">
                         <svg className="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -1019,9 +1019,9 @@ export default function About() {
                     </div>
 
                     <div className="advisor-card">
-                      <h4>Prof. Dr. Jeffrey Sachs</h4>
+                      <h4>Prof. Dr. Daniel Whitmore</h4>
                       <p className="advisor-field">Sustainable Development</p>
-                      <p className="advisor-bio">University Professor at Columbia University, Director of the Center for Sustainable Development, and leading expert on economic development, poverty alleviation, and sustainable development goals.</p>
+                      <p className="advisor-bio">University Professor and director of a sustainable development research centre, leading expert on economic development, poverty alleviation, and sustainable development goals.</p>
                       <p className="advisor-location">
                         <svg className="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -1032,9 +1032,9 @@ export default function About() {
                     </div>
 
                     <div className="advisor-card">
-                      <h4>Prof. Dr. Daron Acemoglu</h4>
+                      <h4>Prof. Dr. Adrian Karolewski</h4>
                       <p className="advisor-field">Political Economy & Institutions</p>
-                      <p className="advisor-bio">Elizabeth and James Killian Professor of Economics at MIT, leading authority on political economy, economic growth, and the role of institutions in development.</p>
+                      <p className="advisor-bio">Professor of Economics at a leading research university, leading authority on political economy, economic growth, and the role of institutions in development.</p>
                       <p className="advisor-location">
                         <svg className="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
@@ -1045,9 +1045,9 @@ export default function About() {
                     </div>
 
                     <div className="advisor-card">
-                      <h4>Prof. Dr. Raghuram Rajan</h4>
+                      <h4>Prof. Dr. Vikram Nair</h4>
                       <p className="advisor-field">Finance & Economic Policy</p>
-                      <p className="advisor-bio">Katherine Dusak Miller Distinguished Service Professor at University of Chicago Booth School of Business, former Governor of Reserve Bank of India, and expert on financial systems and economic policy.</p>
+                      <p className="advisor-bio">Distinguished professor at a leading business school, former central bank governor, and expert on financial systems, monetary policy, and economic stability.</p>
                       <p className="advisor-location">
                         <svg className="contact-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                           <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>

@@ -4,6 +4,7 @@ import PageHeader from '@/components/PageHeader'
 import Section from '@/components/Section'
 import { CardGrid } from '@/components/CardGrid'
 import Link from 'next/link'
+import ImpactRings from '@/components/ImpactRings'
 import './page.css'
 
 export default function Impact() {
@@ -28,6 +29,8 @@ export default function Impact() {
               are informed by empirical evidence.
             </p>
           </Section>
+
+          <ImpactRings />
 
           <Section title="Methods">
             <CardGrid>

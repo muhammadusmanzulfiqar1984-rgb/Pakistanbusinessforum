@@ -5,7 +5,7 @@
 .event-type {
   display: inline-block;
   padding: 3px 10px;
-  background: #7a1f2b;
+  background: #0f2463;
   color: #ffffff;
   font-size: 10px;
   font-weight: 600;
@@ -31,7 +31,7 @@
 
 .event-date strong,
 .event-location strong {
-  color: #7a1f2b;
+  color: #0f2463;
   font-weight: 600;
 }
 
@@ -51,7 +51,7 @@
 .registration-link {
   display: inline-block;
   padding: 10px 20px;
-  background: #7a1f2b;
+  background: #0f2463;
   color: #ffffff;
   text-decoration: none;
   font-weight: 600;

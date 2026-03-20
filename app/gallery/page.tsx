@@ -1,62 +1,17 @@
-'use client'
-
 import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import PageHeader from '@/components/PageHeader'
 import Section from '@/components/Section'
-import Image from 'next/image'
-import { useState } from 'react'
+import GalleryItem, { type GalleryEventItem } from '@/components/GalleryItem'
+import { getGalleryItems } from '@/lib/sanity'
 import './page.css'
 
-interface EventItem {
-  title: string
-  location: string
-  date: string
-  type: string
-  image: string
-  description: string
-}
+export const revalidate = 3600
 
-function GalleryItem({ event }: { event: EventItem }) {
-  const [imageError, setImageError] = useState(false)
-  
-  return (
-    <div className="gallery-item">
-      <div className="gallery-image-container">
-        <div className="event-badge">{event.type}</div>
-        {!imageError ? (
-          <Image
-            src={event.image}
-            alt={`${event.title} - ${event.location}`}
-            width={400}
-            height={300}
-            className="gallery-image"
-            onError={() => setImageError(true)}
-          />
-        ) : (
-          <div className="gallery-image-placeholder">
-            <div className="image-placeholder-content">
-              <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="#7a1f2b" strokeWidth="1.5">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
-                <circle cx="8.5" cy="8.5" r="1.5"/>
-                <polyline points="21 15 16 10 5 21"/>
-              </svg>
-              <p className="location-text">{event.location}</p>
-            </div>
-          </div>
-        )}
-      </div>
-      <div className="gallery-item-info">
-        <h3>{event.title}</h3>
-        <p className="gallery-date">{event.date}</p>
-        <p className="gallery-description">{event.description}</p>
-      </div>
-    </div>
-  )
-}
+export default async function Gallery() {
+  const sanityItems = await getGalleryItems()
 
-export default function Gallery() {
-  const internationalEvents = [
+  let internationalEvents: GalleryEventItem[] = [
     {
       title: 'International Think Tank Summit 2025',
       location: 'Washington, D.C., United States',
@@ -154,6 +109,18 @@ export default function Gallery() {
       description: 'Policy dialogue delegation focused on international relations and global governance challenges.'
     }
   ]
+
+  // Override with Sanity CMS data if available
+  if (sanityItems && sanityItems.length > 0) {
+    internationalEvents = sanityItems.map(item => ({
+      title: item.title,
+      location: item.location,
+      date: item.date,
+      type: item.type,
+      image: item.imageUrl || '',
+      description: item.description,
+    }))
+  }
 
   return (
     <>

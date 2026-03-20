@@ -1,9 +1,175 @@
+/* ── Footer ── */
 .footer {
-  background-color: var(--color-bg);
-  border-top: 1px solid rgba(122, 31, 43, 0.1);
+  background: #0a1733;
+  color: #ccc;
   margin-top: auto;
-  padding-top: var(--spacing-2xl);
-  padding-bottom: var(--spacing-xl);
+}
+
+/* Top band — 4 columns */
+.footer-top {
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+  padding: 56px 0 48px;
+}
+
+.footer-top-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px;
+}
+
+/* Brand column */
+.footer-brand-name {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.footer-brand-sub {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #C9A961;
+  margin-bottom: 14px;
+}
+
+.footer-brand-desc {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #999;
+  max-width: 280px;
+  margin-bottom: 20px;
+}
+
+/* Socials */
+.footer-socials {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,255,255,0.15);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: border-color 0.2s, color 0.2s, background 0.2s;
+}
+
+.social-link:hover {
+  border-color: #C9A961;
+  color: #C9A961;
+  background: rgba(201,169,97,0.08);
+}
+
+/* Link columns */
+.footer-col-title {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fff;
+  margin-bottom: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.footer-col-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-col-links a {
+  font-size: 13px;
+  color: #999;
+  text-decoration: none;
+  transition: color 0.2s;
+  line-height: 1.4;
+}
+
+.footer-col-links a:hover {
+  color: #C9A961;
+}
+
+/* Bottom band */
+.footer-bottom {
+  padding: 18px 0;
+  background: #091a35;
+}
+
+.footer-bottom-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-copy {
+  font-size: 12px;
+  color: #666;
+  margin: 0;
+}
+
+.footer-legal {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.footer-legal a {
+  font-size: 12px;
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer-legal a:hover { color: #C9A961; }
+
+/* Responsive */
+@media (max-width: 960px) {
+  .footer-top-inner {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    padding: 0 24px;
+  }
+  .footer-brand { grid-column: 1 / -1; }
+}
+
+@media (max-width: 560px) {
+  .footer-top-inner {
+    grid-template-columns: 1fr;
+    padding: 0 20px;
+  }
+  .footer-bottom-inner {
+    padding: 0 20px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .footer-container {
@@ -32,8 +198,8 @@
   color: #ffffff;
   font-weight: 600;
   padding: 8px 16px;
-  background: #7a1f2b;
-  border: 1px solid #7a1f2b;
+  background: #0f2463;
+  border: 1px solid #0f2463;
   border-top: none;
   border-radius: 0 0 6px 6px;
   transition: all 0.2s ease;
@@ -41,7 +207,7 @@
 }
 
 .footer-tabs a:hover {
-  background: #7a1f2b;
+  background: #0f2463;
   color: #ffffff;
 }
 
@@ -54,13 +220,13 @@
 }
 
 .footer-maroon {
-  color: #7a1f2b;
+  color: #0f2463;
   font-weight: 600;
 }
 
 .footer-divider {
   height: 3px;
-  background-color: #7a1f2b;
+  background-color: #0f2463;
   width: 100%;
 }
 
@@ -78,8 +244,8 @@
 .social-link {
   padding: 8px 16px;
   border-radius: 6px 6px 0 0;
-  background: #7a1f2b;
-  border: 1px solid #7a1f2b;
+  background: #0f2463;
+  border: 1px solid #0f2463;
   border-bottom: none;
   display: inline-flex;
   align-items: center;
@@ -95,7 +261,7 @@
 }
 
 .social-link:hover {
-  background: #7a1f2b;
+  background: #0f2463;
   color: #ffffff;
 }
 

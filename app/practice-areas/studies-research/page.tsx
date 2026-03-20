@@ -3,6 +3,8 @@ import Footer from '@/components/Footer'
 import PageHeader from '@/components/PageHeader'
 import Section from '@/components/Section'
 import InstitutionalDiagram from '@/components/InstitutionalDiagram'
+import ResearchPipeline from '@/components/ResearchPipeline'
+import ProcessFlow from '@/components/ProcessFlow'
 import './page.css'
 
 export default function StudiesResearch() {
@@ -65,6 +67,19 @@ export default function StudiesResearch() {
                 </p>
               </div>
             </div>
+          </Section>
+
+          <Section title="Research Methodology Pipeline">
+            <p className="section-lead-text">Every research engagement follows a rigorous five-stage pipeline — from problem identification to peer-reviewed dissemination.</p>
+            <ResearchPipeline />
+          </Section>
+
+          <Section title="Three-Phase Engagement Process">
+            <ProcessFlow steps={[
+              { num: '01', title: 'Assessment', desc: 'Assessment of institutional needs based on public affairs objectives — systematic analysis and research design aligned with policy research goals and evidence requirements.' },
+              { num: '02', title: 'Tailored Research', desc: 'Set up of tailored research teams with partner institutions including academic experts, research institutes, and think tanks — coordinated throughout the research process to ensure methodological rigour.' },
+              { num: '03', title: 'Promotion', desc: 'Promotion of studies and targeted diffusion to contribute to public debate — ensuring research findings reach academic, policy, and institutional audiences through effective dissemination channels.' },
+            ]} />
           </Section>
 
           <Section title="Policy Relevance">

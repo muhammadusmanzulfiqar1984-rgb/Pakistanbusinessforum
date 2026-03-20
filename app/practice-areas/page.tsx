@@ -4,6 +4,7 @@ import PageHeader from '@/components/PageHeader'
 import Section from '@/components/Section'
 import { CardGrid } from '@/components/CardGrid'
 import Link from 'next/link'
+import PracticeHexGrid from '@/components/PracticeHexGrid'
 import './page.css'
 
 export default function PracticeAreas() {
@@ -64,15 +65,7 @@ export default function PracticeAreas() {
           />
 
           <Section title="Practice Areas">
-            <CardGrid>
-              {practiceAreas.map((area) => (
-                <Link key={area.slug} href={`/practice-areas/${area.slug}`} className="card">
-                  <h3>{area.title}</h3>
-                  <p>{area.description}</p>
-                  <span className="small-text">View details</span>
-                </Link>
-              ))}
-            </CardGrid>
+            <PracticeHexGrid areas={practiceAreas as any} />
           </Section>
         </div>
       </main>

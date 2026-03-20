@@ -8,7 +8,7 @@
 .gallery-item {
   background-color: var(--color-card);
   border: 1px solid var(--color-border);
-  border-top: 5px solid #7a1f2b;
+  border-top: 5px solid #0f2463;
   overflow: hidden;
   transition: all 0.2s ease;
   display: flex;
@@ -16,9 +16,9 @@
 }
 
 .gallery-item:hover {
-  border-color: #7a1f2b;
-  border-top-color: #7a1f2b;
-  box-shadow: 0 4px 12px rgba(122, 31, 43, 0.1);
+  border-color: #0f2463;
+  border-top-color: #0f2463;
+  box-shadow: 0 4px 12px rgba(15, 36, 99, 0.1);
 }
 
 .gallery-image-container {
@@ -26,7 +26,7 @@
   height: 200px;
   position: relative;
   overflow: hidden;
-  background: #faf7f4;
+  background: #ffffff;
 }
 
 .gallery-image-container::before {
@@ -36,7 +36,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(135deg, rgba(122, 31, 43, 0.15) 0%, rgba(122, 31, 43, 0.05) 100%);
+  background: linear-gradient(135deg, rgba(15, 36, 99, 0.15) 0%, rgba(15, 36, 99, 0.05) 100%);
   z-index: 1;
   pointer-events: none;
   mix-blend-mode: multiply;
@@ -65,7 +65,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #faf7f4 0%, #f1eeeb 100%);
+  background: linear-gradient(135deg, #ffffff 0%, #f1eeeb 100%);
   z-index: 1;
 }
 
@@ -74,7 +74,7 @@
   top: 12px;
   right: 12px;
   padding: 4px 12px;
-  background: #7a1f2b;
+  background: #0f2463;
   color: #ffffff;
   font-size: 10px;
   font-weight: 600;
@@ -86,7 +86,7 @@
 
 .image-placeholder-content {
   text-align: center;
-  color: #7a1f2b;
+  color: #0f2463;
   z-index: 1;
 }
 
@@ -98,7 +98,7 @@
 .location-text {
   font-size: 12px;
   font-weight: 600;
-  color: #7a1f2b;
+  color: #0f2463;
   margin-top: 8px;
   text-align: center;
 }
@@ -112,7 +112,7 @@
 }
 
 .gallery-item-info h3 {
-  color: #7a1f2b;
+  color: #0f2463;
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 4px;

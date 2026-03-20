@@ -3,6 +3,8 @@ import Footer from '@/components/Footer'
 import PageHeader from '@/components/PageHeader'
 import Section from '@/components/Section'
 import InstitutionalDiagram from '@/components/InstitutionalDiagram'
+import VigilanceMatrix from '@/components/VigilanceMatrix'
+import ProcessFlow from '@/components/ProcessFlow'
 import './page.css'
 
 export default function RegulatoryMonitoringStrategicIntelligence() {
@@ -64,6 +66,19 @@ export default function RegulatoryMonitoringStrategicIntelligence() {
                 </p>
               </div>
             </div>
+          </Section>
+
+          <Section title="Vigilance Strategy">
+            <p>All audiences are categorised across two axes — sentiment and relationship. No conversation is left unanswered. Hover each quadrant to see the response approach.</p>
+            <VigilanceMatrix />
+          </Section>
+
+          <Section title="Monitoring Methodology">
+            <ProcessFlow steps={[
+              { num: '01', title: 'Identification', desc: 'Identification and follow-up of key institutional work streams — mapping policy development processes and regulatory evolution within governance systems.' },
+              { num: '02', title: 'Monitoring', desc: 'Continuous monitoring of political, parliamentary, and governmental news — systematic documentation and analysis of regulatory and policy changes as they unfold.' },
+              { num: '03', title: 'Recommendations', desc: 'Development of research-based recommendations aligned with the institutional calendar — providing evidence-based analysis to inform policy timing and engagement strategies.' },
+            ]} />
           </Section>
 
           <Section title="Policy Relevance">

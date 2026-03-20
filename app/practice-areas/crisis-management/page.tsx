@@ -3,7 +3,21 @@ import Footer from '@/components/Footer'
 import PageHeader from '@/components/PageHeader'
 import Section from '@/components/Section'
 import InstitutionalDiagram from '@/components/InstitutionalDiagram'
+import ProcessFlow from '@/components/ProcessFlow'
 import './page.css'
+
+const crisisSteps = [
+  { num: '01', title: 'Assessment', desc: 'Assessment of communication procedures and crisis management frameworks — systematic analysis of institutional preparedness and response mechanisms.' },
+  { num: '02', title: 'Elaboration', desc: 'Development of crisis management and exit strategy frameworks — research-based evaluation of response mechanisms and contingency planning.' },
+  { num: '03', title: 'Operation', desc: 'Operational support and coordination of information channels — ensuring communication mechanisms function effectively during policy-related crises.' },
+]
+
+const warfareSteps = [
+  { num: 'I', title: 'Networks', desc: 'Digital networks overlay the operational theatre — information, sensing, effects and command grids interconnected and interdependent.' },
+  { num: 'II', title: 'Stealth', desc: 'Operations conducted below the threshold of conventional conflict — ambiguity as strategic advantage.' },
+  { num: 'III', title: 'Precision', desc: 'Targeted effects with minimal collateral — surgical engagement of key nodes within information and institutional networks.' },
+  { num: 'IV', title: 'Speed', desc: 'Decision cycles compressed — the ability to act and adapt faster than the adversary can respond or recover.' },
+]
 
 export default function CrisisManagement() {
   return (
@@ -64,6 +78,15 @@ export default function CrisisManagement() {
                 </p>
               </div>
             </div>
+          </Section>
+
+          <Section title="Crisis Response Process">
+            <ProcessFlow steps={crisisSteps} />
+          </Section>
+
+          <Section title="Fifth Generation Warfare">
+            <p>Fifth generation warfare is all about ideas — how we conceive of tomorrow's conflicts and prepare institutions to navigate them. It encompasses four interconnected approaches that define modern strategic risk environments.</p>
+            <ProcessFlow steps={warfareSteps} />
           </Section>
 
           <Section title="Policy Relevance">

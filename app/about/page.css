@@ -27,8 +27,8 @@
 .tab-button {
   width: 100%;
   padding: 8px 16px;
-  background: #7a1f2b;
-  border: 1px solid #7a1f2b;
+  background: #0f2463;
+  border: 1px solid #0f2463;
   border-bottom: none;
   border-radius: 6px 6px 0 0;
   text-align: left;
@@ -43,15 +43,15 @@
 }
 
 .tab-button:hover {
-  background: #7a1f2b;
+  background: #0f2463;
   color: #ffffff;
 }
 
 .tab-button.active {
-  background: #7a1f2b;
+  background: #0f2463;
   color: #ffffff;
-  border-color: #7a1f2b;
-  border-bottom-color: #7a1f2b;
+  border-color: #0f2463;
+  border-bottom-color: #0f2463;
 }
 
 .about-tab-content {
@@ -579,7 +579,7 @@
 
 .advisor-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(122, 31, 43, 0.1);
+  box-shadow: 0 4px 12px rgba(15, 36, 99, 0.1);
 }
 
 .advisor-card h4 {

@@ -4,9 +4,15 @@ import PageHeader from '@/components/PageHeader'
 import Section from '@/components/Section'
 import { CardGrid } from '@/components/CardGrid'
 import Link from 'next/link'
+import { getMediaItems } from '@/lib/sanity'
 import './page.css'
 
-export default function Media() {
+export const revalidate = 3600
+
+export default async function Media() {
+  const mediaItems = await getMediaItems()
+  const hasItems = mediaItems && mediaItems.length > 0
+
   return (
     <>
       <Navigation />
@@ -25,6 +31,35 @@ export default function Media() {
               methodological transparency, and scholarly rigor in all communication activities.
             </p>
           </Section>
+
+          {hasItems && (
+            <Section title="Latest Outputs">
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
+                {mediaItems!.slice(0, 6).map(item => (
+                  <div key={item._id} style={{ borderLeft: '3px solid #C9A961', paddingLeft: '16px' }}>
+                    <div style={{ display: 'flex', gap: '12px', alignItems: 'baseline', marginBottom: '4px' }}>
+                      <span style={{ fontSize: '11px', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#0f2463', fontWeight: 600 }}>
+                        {item.category === 'knowledge-output' ? 'Knowledge Output' : item.category.charAt(0).toUpperCase() + item.category.slice(1)}
+                      </span>
+                      {item.publishedAt && (
+                        <span style={{ fontSize: '12px', color: '#888' }}>{item.publishedAt}</span>
+                      )}
+                    </div>
+                    <h4 style={{ margin: '0 0 4px', fontSize: '16px' }}>
+                      {(item.fileUrl || item.externalUrl) ? (
+                        <a href={item.fileUrl || item.externalUrl!} target="_blank" rel="noopener noreferrer"
+                          style={{ color: 'inherit', textDecoration: 'underline', textUnderlineOffset: '3px' }}>
+                          {item.title}
+                        </a>
+                      ) : item.title}
+                    </h4>
+                    {item.author && <p style={{ margin: '0 0 4px', fontSize: '13px', color: '#666' }}>{item.author}</p>}
+                    {item.excerpt && <p style={{ margin: 0, fontSize: '14px', color: '#444', lineHeight: 1.5 }}>{item.excerpt}</p>}
+                  </div>
+                ))}
+              </div>
+            </Section>
+          )}
 
           <Section title="Knowledge Products">
             <CardGrid>

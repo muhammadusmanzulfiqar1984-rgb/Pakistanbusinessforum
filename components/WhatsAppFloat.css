@@ -4,12 +4,12 @@
   right: 24px;
   width: 60px;
   height: 60px;
-  background: #7a1f2b;
+  background: #0f2463;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 12px rgba(122, 31, 43, 0.4);
+  box-shadow: 0 4px 12px rgba(15, 36, 99, 0.4);
   z-index: 1000;
   transition: all 0.3s ease;
   color: #ffffff;
@@ -19,7 +19,7 @@
 .whatsapp-float:hover {
   background: #5a151f;
   transform: scale(1.1);
-  box-shadow: 0 6px 16px rgba(122, 31, 43, 0.5);
+  box-shadow: 0 6px 16px rgba(15, 36, 99, 0.5);
 }
 
 .whatsapp-float svg {

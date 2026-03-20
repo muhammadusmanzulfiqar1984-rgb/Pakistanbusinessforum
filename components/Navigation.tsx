@@ -43,12 +43,19 @@ export default function Navigation() {
     return pathname === href || pathname.startsWith(`${href}/`)
   }
 
-  const tickerItems = [
+  const [tickerItems, setTickerItems] = useState([
     'New Research Published · Economic Policy Frameworks — March 2026',
     'Forum Engages Regional Partners Across 12 Countries',
     'Annual Policy Review 2025 Now Available',
     'Strategic Advisory Brief: Institutional Reform — Q1 2026',
-  ]
+  ])
+
+  useEffect(() => {
+    fetch('/api/ticker')
+      .then(r => r.json())
+      .then(data => { if (data?.items?.length) setTickerItems(data.items) })
+      .catch(() => {})
+  }, [])
 
   return (
     <header className={`site-header${scrolled ? ' scrolled' : ''}`}>
@@ -64,12 +71,12 @@ export default function Navigation() {
         <div className="nav-logo-space">
           <Link href="/" className="logo-link">
             <Image
-              src="/logo-pbf.svg"
+              src="/images/Pakistan business forum 1.png"
               alt="Pakistan Business Forum® Logo"
-              width={140}
-              height={60}
+              width={200}
+              height={100}
               priority
-              style={{ objectFit: 'contain' }}
+              style={{ objectFit: 'contain', maxHeight: '90px' }}
             />
           </Link>
         </div>
