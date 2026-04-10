@@ -1,0 +1,50 @@
+/* ══════════════════════════════════════════
+   STRATEGIC ADVISORY
+   Cleaned to match global theme (Off-White, Navy, Silver)
+   ══════════════════════════════════════════ */
+
+.page-container {
+  padding-bottom: 60px;
+}
+
+/* ── Wheel diagram surface ── */
+.section-image {
+  width: 100%;
+  margin: var(--spacing-xl) 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid rgba(15, 36, 99, 0.08);
+  border-radius: 24px;
+  padding: 28px 20px 20px;
+  box-shadow: 0 4px 12px rgba(15, 36, 99, 0.03);
+  position: relative;
+  overflow: visible;
+}
+
+/* ── Scope list ── */
+.scope-list {
+  list-style: none;
+  padding-left: 0;
+  margin: var(--spacing-lg) 0;
+}
+
+.scope-list li {
+  padding: 12px 16px;
+  position: relative;
+  color: var(--color-text-body);
+  line-height: 1.65;
+  border: 1px solid rgba(15, 36, 99, 0.08);
+  border-radius: 10px;
+  margin-bottom: 6px;
+  background: #ffffff;
+  transition: color 0.15s ease, background 0.18s ease, border-color 0.18s ease, transform 0.22s cubic-bezier(0.34,1.56,0.64,1);
+}
+
+.scope-list li:hover {
+  color: #0f2463;
+  background: rgba(15, 36, 99, 0.02);
+  border-color: #0f2463;
+  transform: translateX(6px);
+}

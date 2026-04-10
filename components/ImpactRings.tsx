@@ -1,14 +1,16 @@
 'use client'
 import { useEffect, useRef, useState } from 'react'
 
-const rings = [
-  { label: 'Impact Evaluation', pct: 92, color: '#0f2463', desc: 'Experimental & quasi-experimental designs' },
-  { label: 'Performance Measurement', pct: 85, color: '#C9A961', desc: 'KPIs, frameworks, monitoring systems' },
-  { label: 'Process Evaluation', pct: 78, color: '#2c5f8a', desc: 'Implementation analysis' },
-  { label: 'Economic Evaluation', pct: 88, color: '#3a7a4a', desc: 'Cost-benefit & cost-effectiveness' },
+const ringData = [
+  { pct: 92, color: '#0f2463' },
+  { pct: 85, color: '#C0C0C0' },
+  { pct: 78, color: '#2c5f8a' },
+  { pct: 88, color: '#3a7a4a' },
 ]
 
-function Ring({ label, pct, color, desc, animate }: { label: string, pct: number, color: string, desc: string, animate: boolean }) {
+type RingItem = { label: string; desc: string; pct: number; color: string }
+
+function Ring({ label, pct, color, desc, animate }: RingItem & { animate: boolean }) {
   const r = 54
   const circ = 2 * Math.PI * r
   const dash = animate ? circ * (1 - pct / 100) : circ
@@ -33,9 +35,18 @@ function Ring({ label, pct, color, desc, animate }: { label: string, pct: number
   )
 }
 
-export default function ImpactRings() {
+export default function ImpactRings({ labels, descs }: { labels?: string[]; descs?: string[] }) {
   const ref = useRef<HTMLDivElement>(null)
   const [animate, setAnimate] = useState(false)
+
+  const defaultLabels = ['Impact Evaluation', 'Performance Measurement', 'Process Evaluation', 'Economic Evaluation']
+  const defaultDescs = ['Experimental & quasi-experimental designs', 'KPIs, frameworks, monitoring systems', 'Implementation analysis', 'Cost-benefit & cost-effectiveness']
+
+  const rings: RingItem[] = ringData.map((r, i) => ({
+    ...r,
+    label: (labels && labels[i]) || defaultLabels[i],
+    desc: (descs && descs[i]) || defaultDescs[i],
+  }))
 
   useEffect(() => {
     const obs = new IntersectionObserver(

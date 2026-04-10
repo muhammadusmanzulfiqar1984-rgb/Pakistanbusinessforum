@@ -253,8 +253,28 @@ export default function Chatbot() {
   const handleQuickQuestion = (question: string) => {
     setInputValue(question)
     setTimeout(() => {
-      handleSend()
-    }, 100)
+      // Simulate click
+      const syntheticEvent = { preventDefault: () => {} } as any
+      // Directly call handleSend logic
+      const userMessage: Message = {
+        id: Date.now().toString(),
+        text: question,
+        sender: 'user',
+        timestamp: new Date()
+      }
+      setMessages(prev => [...prev, userMessage])
+      setInputValue('')
+      setTimeout(() => {
+        const botAnswer = findAnswer(question)
+        const botMessage: Message = {
+          id: (Date.now() + 1).toString(),
+          text: botAnswer,
+          sender: 'bot',
+          timestamp: new Date()
+        }
+        setMessages(prev => [...prev, botMessage])
+      }, 500)
+    }, 50)
   }
 
   return (
@@ -304,28 +324,29 @@ export default function Chatbot() {
                 </div>
               </div>
             ))}
-            <div ref={messagesEndRef} />
-          </div>
 
-          <div className="chatbot-quick-questions">
-            <p>Quick questions:</p>
-            <div className="quick-questions-list">
-              <button onClick={() => handleQuickQuestion('Who is the Patron-in-Chief?')}>
-                Patron-in-Chief
-              </button>
-              <button onClick={() => handleQuickQuestion('Who are the Policy Board members?')}>
-                Policy Board
-              </button>
-              <button onClick={() => handleQuickQuestion('Who are the Board of Advisors?')}>
-                Advisors
-              </button>
-              <button onClick={() => handleQuickQuestion('What are your main areas of work?')}>
-                Areas of Work
-              </button>
-              <button onClick={() => handleQuickQuestion('How can I contact you?')}>
-                Contact Info
-              </button>
+            <div className="chatbot-quick-questions">
+              <p>Quick questions:</p>
+              <div className="quick-questions-list">
+                <button onClick={() => handleQuickQuestion('Who is the Patron-in-Chief?')}>
+                  Patron-in-Chief
+                </button>
+                <button onClick={() => handleQuickQuestion('Who are the Policy Board members?')}>
+                  Policy Board
+                </button>
+                <button onClick={() => handleQuickQuestion('Who are the Board of Advisors?')}>
+                  Advisors
+                </button>
+                <button onClick={() => handleQuickQuestion('What are your main areas of work?')}>
+                  Areas of Work
+                </button>
+                <button onClick={() => handleQuickQuestion('How can I contact you?')}>
+                  Contact Info
+                </button>
+              </div>
             </div>
+
+            <div ref={messagesEndRef} />
           </div>
 
           <div className="chatbot-input-container">

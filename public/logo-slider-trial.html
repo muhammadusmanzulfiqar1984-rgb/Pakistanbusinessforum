@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logo Slider Trial — Pakistan Business Forum</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, 'Inter', sans-serif; background: #f0ece6; color: #0f2463; }
+
+  .page-mock { max-width: 1200px; margin: 60px auto; padding: 0 48px; }
+
+  .section-label {
+    font-size: 10px; font-weight: 800; letter-spacing: 0.16em;
+    text-transform: uppercase; color: #C9A961;
+    margin-bottom: 10px; display: flex; align-items: center; gap: 10px;
+  }
+  .section-label::before { content: ''; width: 28px; height: 1px; background: #C9A961; }
+  .section-title { font-size: 28px; font-weight: 800; color: #0f2463; letter-spacing: -0.02em; margin-bottom: 48px; }
+  .slider-section { margin-bottom: 56px; }
+  .slider-label { font-size: 11px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: #0f2463; opacity: 0.40; margin-bottom: 14px; }
+  .divider { height: 1px; background: linear-gradient(90deg, transparent, rgba(15,36,99,0.12) 30%, rgba(201,169,97,0.20) 50%, transparent); margin: 40px 0; }
+
+  @keyframes scrollLeft { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+
+  /* shared track */
+  .logo-track { display: flex; width: max-content; align-items: center; animation: scrollLeft 30s linear infinite; }
+  .logo-track:hover { animation-play-state: paused; }
+  .logo-item { display: flex; align-items: center; justify-content: center; padding: 0 52px; height: 64px; flex-shrink: 0; transition: opacity 0.2s ease; }
+
+  /* VARIANT 1 — White clean */
+  .logo-strip { position: relative; overflow: hidden; padding: 20px 0; background: #ffffff; border: 1px solid rgba(15,36,99,0.08); border-radius: 14px; }
+  .logo-strip::before, .logo-strip::after { content: ''; position: absolute; top: 0; bottom: 0; width: 100px; z-index: 2; pointer-events: none; }
+  .logo-strip::before { left: 0;  background: linear-gradient(90deg, #fff, transparent); }
+  .logo-strip::after  { right: 0; background: linear-gradient(270deg, #fff, transparent); }
+  .logo-strip .logo-item { opacity: 0.55; border-right: 1px solid rgba(15,36,99,0.06); }
+  .logo-strip .logo-item:hover { opacity: 1; }
+  .logo-strip .logo-item img { filter: grayscale(100%) brightness(0.25); transition: filter 0.25s ease; }
+  .logo-strip .logo-item:hover img { filter: grayscale(0%) brightness(1); }
+
+  /* VARIANT 2 — Dark navy */
+  .logo-strip-dark { position: relative; overflow: hidden; padding: 20px 0; background: #0b1840; border-radius: 14px; }
+  .logo-strip-dark::before, .logo-strip-dark::after { content: ''; position: absolute; top: 0; bottom: 0; width: 100px; z-index: 2; pointer-events: none; }
+  .logo-strip-dark::before { left: 0;  background: linear-gradient(90deg, #0b1840, transparent); }
+  .logo-strip-dark::after  { right: 0; background: linear-gradient(270deg, #0b1840, transparent); }
+  .logo-strip-dark .logo-item { opacity: 0.50; border-right: 1px solid rgba(255,255,255,0.06); }
+  .logo-strip-dark .logo-item:hover { opacity: 1; }
+  .logo-strip-dark .logo-item img { filter: grayscale(100%) brightness(8) opacity(0.8); transition: filter 0.25s ease; }
+  .logo-strip-dark .logo-item:hover img { filter: grayscale(0%) brightness(1.2); }
+
+  /* VARIANT 3 — Gold accent */
+  .logo-strip-gold { position: relative; overflow: hidden; padding: 20px 0; background: #faf7f0; border-top: 2px solid #C9A961; border-bottom: 2px solid #C9A961; }
+  .logo-strip-gold::before, .logo-strip-gold::after { content: ''; position: absolute; top: 0; bottom: 0; width: 100px; z-index: 2; pointer-events: none; }
+  .logo-strip-gold::before { left: 0;  background: linear-gradient(90deg, #faf7f0, transparent); }
+  .logo-strip-gold::after  { right: 0; background: linear-gradient(270deg, #faf7f0, transparent); }
+  .logo-strip-gold .logo-item { opacity: 0.55; border-right: 1px solid rgba(201,169,97,0.18); }
+  .logo-strip-gold .logo-item:hover { opacity: 1; }
+  .logo-strip-gold .logo-item img { filter: grayscale(100%) brightness(0.30); transition: filter 0.25s ease; }
+  .logo-strip-gold .logo-item:hover img { filter: grayscale(0%) brightness(1); }
+
+  .logo-item img { height: 38px; width: auto; max-width: 130px; object-fit: contain; }
+</style>
+</head>
+<body>
+<div class="page-mock">
+
+  <div class="section-label">Global Network</div>
+  <div class="section-title">Affiliated Institutions &amp; Partners</div>
+
+  <!-- 1. WHITE STRIP — Policy Orgs -->
+  <div class="slider-section">
+    <div class="slider-label">Policy Organisations</div>
+    <div class="logo-strip">
+      <div class="logo-track">
+        <div class="logo-item"><img src="/images/partners/policy-organizations/world-bank.svg" alt="World Bank"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/undp.svg" alt="UNDP"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/international-monetary-fund.svg" alt="IMF"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/oecd.svg" alt="OECD"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/asian-development-bank.svg" alt="ADB"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/world-economic-forum.svg" alt="WEF"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/un-escwa.svg" alt="UN ESCWA"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/unescap.svg" alt="UNESCAP"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/world-bank.svg" alt="World Bank"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/undp.svg" alt="UNDP"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/international-monetary-fund.svg" alt="IMF"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/oecd.svg" alt="OECD"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/asian-development-bank.svg" alt="ADB"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/world-economic-forum.svg" alt="WEF"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/un-escwa.svg" alt="UN ESCWA"></div>
+        <div class="logo-item"><img src="/images/partners/policy-organizations/unescap.svg" alt="UNESCAP"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 2. DARK NAVY — Academic -->
+  <div class="slider-section">
+    <div class="slider-label">Academic Institutions</div>
+    <div class="logo-strip-dark">
+      <div class="logo-track">
+        <div class="logo-item"><img src="/images/partners/academic-institutions/oxford-university.svg" alt="Oxford"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/cambridge-university.svg" alt="Cambridge"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/harvard-university.svg" alt="Harvard"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/lse.svg" alt="LSE"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/stanford-university.svg" alt="Stanford"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/columbia-university.svg" alt="Columbia"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/georgetown-university.svg" alt="Georgetown"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/nus.svg" alt="NUS"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/anu.svg" alt="ANU"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/oxford-university.svg" alt="Oxford"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/cambridge-university.svg" alt="Cambridge"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/harvard-university.svg" alt="Harvard"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/lse.svg" alt="LSE"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/stanford-university.svg" alt="Stanford"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/columbia-university.svg" alt="Columbia"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/georgetown-university.svg" alt="Georgetown"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/nus.svg" alt="NUS"></div>
+        <div class="logo-item"><img src="/images/partners/academic-institutions/anu.svg" alt="ANU"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- 3. GOLD ACCENT — Think Tanks -->
+  <div class="slider-section">
+    <div class="slider-label">International Think Tanks</div>
+    <div class="logo-strip-gold">
+      <div class="logo-track">
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/brookings-institution.svg" alt="Brookings"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/chatham-house.svg" alt="Chatham House"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/carnegie-endowment.svg" alt="Carnegie"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/csis.svg" alt="CSIS"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/peterson-institute.svg" alt="Peterson"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/cato-institute.svg" alt="Cato"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/brookings-institution.svg" alt="Brookings"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/chatham-house.svg" alt="Chatham House"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/carnegie-endowment.svg" alt="Carnegie"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/csis.svg" alt="CSIS"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/peterson-institute.svg" alt="Peterson"></div>
+        <div class="logo-item"><img src="/images/partners/international-think-tanks/cato-institute.svg" alt="Cato"></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

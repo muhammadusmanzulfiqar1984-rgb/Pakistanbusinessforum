@@ -2,8 +2,8 @@
 import { useEffect, useState } from 'react'
 
 const FALLBACK = [
-  'PBF® releases new analysis on Pakistan's regulatory reform agenda',
-  'Fifth Generation Warfare — how ideas shape tomorrow's conflicts',
+  "PBF® releases new analysis on Pakistan's regulatory reform agenda",
+  "Fifth Generation Warfare — how ideas shape tomorrow's conflicts",
   'Bilateral economic relations: employment generation as a key metric',
   'New research: cross-domain synergy in multi-domain policy environments',
   'Opinion Making Process — from vigilance to delivery at scale',

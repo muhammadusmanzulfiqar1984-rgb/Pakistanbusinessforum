@@ -1,0 +1,68 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/layout.js"
+    ],
+    "/[locale]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/page.css",
+      "static/chunks/app/[locale]/page.js"
+    ],
+    "/[locale]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/layout.css",
+      "static/chunks/app/[locale]/layout.js"
+    ],
+    "/[locale]/practice-areas/public-affairs-policy-advisory/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/practice-areas/public-affairs-policy-advisory/page.css",
+      "static/chunks/app/[locale]/practice-areas/public-affairs-policy-advisory/page.js"
+    ],
+    "/[locale]/strategic-advisory/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/strategic-advisory/page.css",
+      "static/chunks/app/[locale]/strategic-advisory/page.js"
+    ],
+    "/[locale]/impact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/impact/page.css",
+      "static/chunks/app/[locale]/impact/page.js"
+    ],
+    "/[locale]/regions/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/regions/page.css",
+      "static/chunks/app/[locale]/regions/page.js"
+    ],
+    "/[locale]/practice-areas/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/practice-areas/page.css",
+      "static/chunks/app/[locale]/practice-areas/page.js"
+    ],
+    "/[locale]/gallery/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/gallery/page.css",
+      "static/chunks/app/[locale]/gallery/page.js"
+    ],
+    "/[locale]/research/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/research/page.css",
+      "static/chunks/app/[locale]/research/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
+    ]
+  }
+}

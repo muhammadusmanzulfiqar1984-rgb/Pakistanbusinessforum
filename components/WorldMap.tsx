@@ -51,7 +51,7 @@ export default function WorldMap() {
               <line
                 x1="62%" y1="38%"
                 x2={`${r.x}%`} y2={`${r.y}%`}
-                stroke="#C9A961" strokeWidth="0.3" strokeDasharray="2 2" opacity="0.4"
+                stroke="#C0C0C0" strokeWidth="0.3" strokeDasharray="2 2" opacity="0.4"
                 style={{ animationDelay: `${i * 120 + 600}ms` }}
                 className="map-line"
               />

@@ -3,11 +3,9 @@ import './WhatsAppFloat.css'
 export default function WhatsAppFloat() {
   return (
     <a 
-      href="https://wa.me/447830755932" 
+      href="/contact"
       className="whatsapp-float"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Chat with us on WhatsApp"
+      aria-label="Contact us"
     >
       <svg 
         width="24" 

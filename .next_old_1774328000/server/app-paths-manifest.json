@@ -1,0 +1,8 @@
+{
+  "/not-found": "app/not-found.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/gallery/page": "app/[locale]/gallery/page.js",
+  "/[locale]/regions/page": "app/[locale]/regions/page.js",
+  "/[locale]/practice-areas/page": "app/[locale]/practice-areas/page.js",
+  "/[locale]/research/page": "app/[locale]/research/page.js"
+}

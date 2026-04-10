@@ -1,9 +1,33 @@
 import Link from 'next/link'
 import './Footer.css'
 
-export default function Footer() {
+// Translation prop type — passed from parent server component
+interface FooterProps {
+  t?: (key: string) => string
+}
+
+const defaultT = (key: string): string => {
+  const defaults: Record<string, string> = {
+    brandDesc: 'Independent analytical platform producing evidence-based policy, regulatory, and economic research since 2016.',
+    practiceAreas: 'Practice Areas', publicAffairs: 'Public Affairs & Policy',
+    regulatoryMonitoring: 'Regulatory Monitoring', economicAffairs: 'Economic Affairs',
+    mediaComms: 'Media & Communications', crisisManagement: 'Crisis Management',
+    strategicAdvisory: 'Strategic Advisory', research: 'Research',
+    researchOverview: 'Research Overview', publications: 'Publications',
+    knowledgeOutputs: 'Knowledge Outputs', policyBriefings: 'Policy Briefings',
+    impact: 'Impact', regionalCoverage: 'Regional Coverage', organisation: 'Organisation',
+    aboutPbf: 'About PBF', globalPartners: 'Global Partners', events: 'Events',
+    gallery: 'Gallery', membership: 'Membership', workWithUs: 'Work With Us',
+    contact: 'Contact',
+    copyright: '© 2016–2026 Pakistan Business Forum®. All rights reserved. Informational and academic purposes only.',
+    privacy: 'Privacy', terms: 'Terms', cookies: 'Cookies', accessibility: 'Accessibility',
+  }
+  return defaults[key] ?? key
+}
+
+export default function Footer({ t = defaultT }: FooterProps) {
   return (
-    <footer className="footer">
+    <div className="footer" role="contentinfo">
       {/* Top band */}
       <div className="footer-top">
         <div className="footer-top-inner">
@@ -11,10 +35,8 @@ export default function Footer() {
             <div className="footer-brand-name">
               Pakistan Business Forum<span className="trademark">®</span>
             </div>
-            <div className="footer-brand-sub">Strategic Policy & Research Platform</div>
-            <p className="footer-brand-desc">
-              Independent analytical platform producing evidence-based policy, regulatory, and economic research since 2016.
-            </p>
+            <div className="footer-brand-sub">Strategic Policy &amp; Research Platform</div>
+            <p className="footer-brand-desc">{t('brandDesc')}</p>
             {/* Social row */}
             <ul className="footer-socials" aria-label="Social media">
               <li><a className="social-link" href="https://www.facebook.com" aria-label="Facebook">f</a></li>
@@ -30,41 +52,41 @@ export default function Footer() {
 
           {/* Column: Practice Areas */}
           <div className="footer-col">
-            <div className="footer-col-title">Practice Areas</div>
+            <div className="footer-col-title">{t('practiceAreas')}</div>
             <ul className="footer-col-links">
-              <li><Link href="/practice-areas/public-affairs-policy-advisory">Public Affairs & Policy</Link></li>
-              <li><Link href="/practice-areas/regulatory-monitoring-strategic-intelligence">Regulatory Monitoring</Link></li>
-              <li><Link href="/practice-areas/economic-affairs">Economic Affairs</Link></li>
-              <li><Link href="/practice-areas/media-strategic-communications">Media & Communications</Link></li>
-              <li><Link href="/practice-areas/crisis-management">Crisis Management</Link></li>
-              <li><Link href="/strategic-advisory">Strategic Advisory</Link></li>
+              <li><Link href="/practice-areas/public-affairs-policy-advisory">{t('publicAffairs')}</Link></li>
+              <li><Link href="/practice-areas/regulatory-monitoring-strategic-intelligence">{t('regulatoryMonitoring')}</Link></li>
+              <li><Link href="/practice-areas/economic-affairs">{t('economicAffairs')}</Link></li>
+              <li><Link href="/practice-areas/media-strategic-communications">{t('mediaComms')}</Link></li>
+              <li><Link href="/practice-areas/crisis-management">{t('crisisManagement')}</Link></li>
+              <li><Link href="/strategic-advisory">{t('strategicAdvisory')}</Link></li>
             </ul>
           </div>
 
           {/* Column: Research */}
           <div className="footer-col">
-            <div className="footer-col-title">Research</div>
+            <div className="footer-col-title">{t('research')}</div>
             <ul className="footer-col-links">
-              <li><Link href="/research">Research Overview</Link></li>
-              <li><Link href="/media/publications">Publications</Link></li>
-              <li><Link href="/media/knowledge-outputs">Knowledge Outputs</Link></li>
-              <li><Link href="/media/briefings">Policy Briefings</Link></li>
-              <li><Link href="/impact">Impact</Link></li>
-              <li><Link href="/regions">Regional Coverage</Link></li>
+              <li><Link href="/research">{t('researchOverview')}</Link></li>
+              <li><Link href="/media/publications">{t('publications')}</Link></li>
+              <li><Link href="/media/knowledge-outputs">{t('knowledgeOutputs')}</Link></li>
+              <li><Link href="/media/briefings">{t('policyBriefings')}</Link></li>
+              <li><Link href="/impact">{t('impact')}</Link></li>
+              <li><Link href="/regions">{t('regionalCoverage')}</Link></li>
             </ul>
           </div>
 
           {/* Column: Organisation */}
           <div className="footer-col">
-            <div className="footer-col-title">Organisation</div>
+            <div className="footer-col-title">{t('organisation')}</div>
             <ul className="footer-col-links">
-              <li><Link href="/about">About PBF</Link></li>
-              <li><Link href="/partners">Global Partners</Link></li>
-              <li><Link href="/events">Events</Link></li>
-              <li><Link href="/gallery">Gallery</Link></li>
-              <li><Link href="/become-a-member">Membership</Link></li>
-              <li><Link href="/work-with-us">Work With Us</Link></li>
-              <li><Link href="/contact">Contact</Link></li>
+              <li><Link href="/about">{t('aboutPbf')}</Link></li>
+              <li><Link href="/partners">{t('globalPartners')}</Link></li>
+              <li><Link href="/events">{t('events')}</Link></li>
+              <li><Link href="/gallery">{t('gallery')}</Link></li>
+              <li><Link href="/become-a-member">{t('membership')}</Link></li>
+              <li><Link href="/work-with-us">{t('workWithUs')}</Link></li>
+              <li><Link href="/contact">{t('contact')}</Link></li>
             </ul>
           </div>
         </div>
@@ -73,19 +95,16 @@ export default function Footer() {
       {/* Bottom band */}
       <div className="footer-bottom">
         <div className="footer-bottom-inner">
-          <p className="footer-copy">
-            © 2016–2026 Pakistan Business Forum<span className="trademark">®</span>. All rights reserved.
-            Informational and academic purposes only.
-          </p>
+          <p className="footer-copy">{t('copyright')}</p>
           <ul className="footer-legal">
-            <li><Link href="/privacy-notice">Privacy</Link></li>
-            <li><Link href="/terms-and-conditions">Terms</Link></li>
-            <li><Link href="/cookie-settings">Cookies</Link></li>
-            <li><Link href="/accessibility">Accessibility</Link></li>
+            <li><Link href="/privacy-notice">{t('privacy')}</Link></li>
+            <li><Link href="/terms-and-conditions">{t('terms')}</Link></li>
+            <li><Link href="/cookie-settings">{t('cookies')}</Link></li>
+            <li><Link href="/accessibility">{t('accessibility')}</Link></li>
           </ul>
         </div>
       </div>
-    </footer>
+    </div>
   )
 }
 

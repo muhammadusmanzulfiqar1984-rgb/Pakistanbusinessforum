@@ -1,4 +1,5 @@
 import React from 'react'
+import './CardGrid.css'
 
 interface CardGridProps {
   children: React.ReactNode
