@@ -1,3 +1,22 @@
+@import '../work-with-us/page.css';
+
+/* ── Contact/Engage hero banner ── */
+.contact-hero-banner {
+  width: 100%;
+  height: 260px;
+  background:
+    linear-gradient(160deg, rgba(15,36,99,0.58) 0%, rgba(5,15,50,0.38) 100%),
+    url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1400&q=80') center 40%/cover no-repeat;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .contact-hero-banner { height: 160px; }
+}
+
 /* ── IFE-style Team Cards ── */
 .contact-team-intro {
   font-size: 15px;
@@ -8,8 +27,8 @@
 .team-director-row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-  margin-bottom: 40px;
+  gap: 16px;
+  margin-bottom: 24px;
 }
 
 .team-director-card {

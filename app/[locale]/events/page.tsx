@@ -170,6 +170,7 @@ export default async function Events() {
       <Navigation />
       <main>
         <div className="page-container events-page">
+          <div className="events-hero-banner" aria-hidden="true" />
           <PageHeader
             title={t('title')}
             lead={t('lead')}

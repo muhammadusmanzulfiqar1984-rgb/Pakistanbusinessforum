@@ -14,7 +14,8 @@ export default async function Research() {
     <>
       <Navigation />
       <main>
-        <div className="page-container">
+        <div className="page-container research-page">
+          <div className="research-hero-banner" aria-hidden="true" />
           <PageHeader
             title={t('title')}
             lead={t('lead')}

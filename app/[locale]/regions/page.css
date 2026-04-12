@@ -1,12 +1,37 @@
+/* ── Regions page hero banner ── */
+.regions-hero-banner {
+  width: 100%;
+  height: 260px;
+  background-image: url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1400&q=80');
+  background-size: cover;
+  background-position: center 50%;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.regions-hero-banner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(15,36,99,0.55) 0%, rgba(5,15,50,0.35) 100%);
+  border-radius: inherit;
+}
+
+@media (max-width: 640px) {
+  .regions-hero-banner { height: 160px; }
+}
+
 .regions-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--spacing-md);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
 }
 
 .region-card {
   display: block;
-  padding: var(--spacing-lg);
+  padding: 20px;
   background-color: var(--color-card);
   border: 1px solid var(--color-grey-border);
   text-decoration: none;
@@ -37,4 +62,36 @@
   .regions-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* Per-region background images — gradient overlay on photo */
+.card-grid .card:nth-child(1) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80') center/cover no-repeat;
+}
+.card-grid .card:nth-child(2) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=800&q=80') center/cover no-repeat;
+}
+.card-grid .card:nth-child(3) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80') center/cover no-repeat;
+}
+.card-grid .card:nth-child(4) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80') center 60%/cover no-repeat;
+}
+.card-grid .card:nth-child(5) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80') center/cover no-repeat;
+}
+.card-grid .card:nth-child(6) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&q=80') center/cover no-repeat;
 }

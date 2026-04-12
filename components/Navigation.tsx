@@ -131,15 +131,13 @@ export default function Navigation() {
   }, [radioAudio])
 
   const navItems = [
-    { href: '/about', label: t('about') },
     { href: '/', label: t('home'), exact: true },
+    { href: '/about', label: t('about') },
+    { href: '/our-work', label: 'Our Work' },
     { href: '/strategic-advisory', label: t('strategicAdvisory') },
-    { href: '/research', label: t('research') },
-    { href: '/practice-areas', label: t('practiceAreas') },
-    { href: '/impact', label: t('impact') },
+    { href: '/partners', label: 'Partners & Events' },
     { href: '/media', label: t('media') },
-    { href: '/regions', label: t('regions') },
-    { href: '/gallery', label: t('gallery') },
+    { href: '/contact', label: 'Engage' },
   ]
 
   const isActive = (href: string, exact = false) => {

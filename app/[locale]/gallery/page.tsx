@@ -19,7 +19,7 @@ export default async function Gallery() {
       location: 'Washington, D.C., United States',
       date: 'September 2025',
       type: 'Organized',
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&q=80',
       description: 'Major international summit convening think tanks and policy organizations from around the world.'
     },
     {
@@ -27,7 +27,7 @@ export default async function Gallery() {
       location: 'London, United Kingdom',
       date: 'April 2025',
       type: 'Participated',
-      image: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1526256262350-7da7584cf5eb?w=800&q=80',
       description: 'Academic seminar on fiscal policy and economic development strategies with European partners.'
     },
     {
@@ -35,7 +35,7 @@ export default async function Gallery() {
       location: 'Singapore',
       date: 'May 2025',
       type: 'Organized',
-      image: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=800&q=80',
       description: 'Stakeholder dialogue on regional economic integration and trade policy across Asia-Pacific.'
     },
     {
@@ -43,7 +43,7 @@ export default async function Gallery() {
       location: 'Islamabad, Pakistan',
       date: 'March 2025',
       type: 'Organized',
-      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1589391886645-d51941baf7fb?w=800&q=80',
       description: 'Two-day conference on institutional reform and governance frameworks with regional participation.'
     },
     {
@@ -51,7 +51,7 @@ export default async function Gallery() {
       location: 'Geneva, Switzerland',
       date: 'November 2025',
       type: 'Participated',
-      image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80',
       description: 'International symposium on global governance challenges and multilateral cooperation.'
     },
     {
@@ -59,7 +59,7 @@ export default async function Gallery() {
       location: 'Dubai, UAE',
       date: 'September 2025',
       type: 'Participated',
-      image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80',
       description: 'Workshop on economic development strategies and policy frameworks for emerging markets.'
     },
     {
@@ -67,7 +67,7 @@ export default async function Gallery() {
       location: 'Bangkok, Thailand',
       date: 'July 2025',
       type: 'Participated',
-      image: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1508009603885-50cf7c579365?w=800&q=80',
       description: 'Dialogue on regional economic cooperation and institutional collaboration across South and Southeast Asia.'
     },
     {
@@ -75,7 +75,7 @@ export default async function Gallery() {
       location: 'Brussels, Belgium',
       date: 'June 2025',
       type: 'Participated',
-      image: 'https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&q=80',
       description: 'Policy research conference focusing on European regulatory frameworks and economic policy.'
     },
     {
@@ -83,7 +83,7 @@ export default async function Gallery() {
       location: 'Karachi, Pakistan',
       date: 'June 2025',
       type: 'Organized',
-      image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80',
       description: 'Intensive workshop on policy research methodologies and evidence-based policy development.'
     },
     {
@@ -91,7 +91,7 @@ export default async function Gallery() {
       location: 'Lahore, Pakistan',
       date: 'October 2025',
       type: 'Organized',
-      image: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=800&q=80',
       description: 'Regional forum examining trade policy and economic development strategies with business leaders.'
     },
     {
@@ -99,7 +99,7 @@ export default async function Gallery() {
       location: 'Washington, D.C., United States',
       date: 'December 2025',
       type: 'Delegation',
-      image: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1580130732478-4e339fb33746?w=800&q=80',
       description: 'Research delegation discussing collaboration on governance studies and economic policy research.'
     },
     {
@@ -107,7 +107,7 @@ export default async function Gallery() {
       location: 'London, United Kingdom',
       date: 'October 2025',
       type: 'Delegation',
-      image: 'https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=600&fit=crop',
+      image: 'https://images.unsplash.com/photo-1486299267070-83823f5448dd?w=800&q=80',
       description: 'Policy dialogue delegation focused on international relations and global governance challenges.'
     }
   ]

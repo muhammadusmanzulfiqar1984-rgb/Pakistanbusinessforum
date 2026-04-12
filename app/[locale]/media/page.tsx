@@ -22,7 +22,8 @@ export default async function Media() {
     <>
       <Navigation />
       <main>
-        <div className="page-container">
+        <div className="page-container media-page">
+          <div className="media-hero-banner" aria-hidden="true" />
           <PageHeader
             title={t('title')}
             lead={t('lead')}

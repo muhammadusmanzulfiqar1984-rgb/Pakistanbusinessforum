@@ -6,7 +6,7 @@ import LiveScreen from '@/components/LiveScreen';
 export default function FloatingLiveTV() {
   const [isVisible, setIsVisible] = useState(false);
   const [isHovered, setIsHovered] = useState(false);
-  const [isMinimized, setIsMinimized] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => setIsVisible(true), 1500);

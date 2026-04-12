@@ -55,6 +55,7 @@ export default async function PracticeAreas() {
       <Navigation />
       <main>
         <div className="page-container">
+          <div className="practice-hero-banner" aria-hidden="true" />
           <PageHeader
             title={t('title')}
             lead={t('lead')}

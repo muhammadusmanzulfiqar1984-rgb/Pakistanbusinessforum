@@ -46,7 +46,7 @@ export default function Footer({ t = defaultT }: FooterProps) {
               <li><a className="social-link" href="https://www.instagram.com" aria-label="Instagram">IG</a></li>
               <li><a className="social-link" href="https://medium.com" aria-label="Medium">M</a></li>
               <li><a className="social-link" href="https://soundcloud.com" aria-label="SoundCloud">SC</a></li>
-              <li><a className="social-link" href="/rss.xml" aria-label="RSS">RSS</a></li>
+              <li><a className="social-link" href="/media/publications" aria-label="RSS">RSS</a></li>
             </ul>
           </div>
 
@@ -59,6 +59,8 @@ export default function Footer({ t = defaultT }: FooterProps) {
               <li><Link href="/practice-areas/economic-affairs">{t('economicAffairs')}</Link></li>
               <li><Link href="/practice-areas/media-strategic-communications">{t('mediaComms')}</Link></li>
               <li><Link href="/practice-areas/crisis-management">{t('crisisManagement')}</Link></li>
+              <li><Link href="/practice-areas/strategic-policy-research-function">Strategic Policy Research</Link></li>
+              <li><Link href="/practice-areas/studies-research">Studies &amp; Research</Link></li>
               <li><Link href="/strategic-advisory">{t('strategicAdvisory')}</Link></li>
             </ul>
           </div>
@@ -81,6 +83,7 @@ export default function Footer({ t = defaultT }: FooterProps) {
             <div className="footer-col-title">{t('organisation')}</div>
             <ul className="footer-col-links">
               <li><Link href="/about">{t('aboutPbf')}</Link></li>
+              <li><Link href="/our-work">Our Work</Link></li>
               <li><Link href="/partners">{t('globalPartners')}</Link></li>
               <li><Link href="/events">{t('events')}</Link></li>
               <li><Link href="/gallery">{t('gallery')}</Link></li>

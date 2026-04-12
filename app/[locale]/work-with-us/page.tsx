@@ -60,6 +60,7 @@ export default function WorkWithUs() {
       <Navigation />
       <main>
         <div className="page-container">
+          <div className="work-with-us-hero-banner" aria-hidden="true" />
           <PageHeader
             title="Work with us"
             lead={

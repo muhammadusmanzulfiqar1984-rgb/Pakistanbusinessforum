@@ -109,11 +109,19 @@ export default function StrategicAdvisory() {
       <Navigation />
       <main>
         <div className="page-container">
-          <PageHeader
-            title={t('title')}
-            lead={t('lead')}
-          />
           <div className="container">
+            <section className="sa-hero">
+              <img
+                src="/images/policy-checkmate.jpg"
+                alt=""
+                aria-hidden="true"
+                className="sa-hero-img"
+              />
+              <div className="sa-hero-overlay" />
+              <div className="eyebrow">STRATEGIC FUNCTION</div>
+              <h1 className="page-title">{t('title')}</h1>
+              <p className="page-intro">{t('lead')}</p>
+            </section>
             <div className="section-image">
               <InstitutionalDiagram type="strategic-advisory" />
             </div>

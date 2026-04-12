@@ -1,12 +1,29 @@
+/* ── Become a Member hero banner ── */
+.membership-hero-banner {
+  width: 100%;
+  height: 260px;
+  background:
+    linear-gradient(160deg, rgba(15,36,99,0.58) 0%, rgba(5,15,50,0.38) 100%),
+    url('https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1400&q=80') center 40%/cover no-repeat;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .membership-hero-banner { height: 160px; }
+}
+
 .membership-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: var(--spacing-md);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
 }
 
 .membership-card {
   display: block;
-  padding: var(--spacing-lg);
+  padding: 20px;
   background-color: var(--color-card);
   border: 1px solid var(--color-grey-border);
   text-decoration: none;
@@ -37,4 +54,26 @@
   .membership-grid {
     grid-template-columns: 1fr;
   }
+}
+
+/* ── Membership card images — gradient overlay on photo ── */
+.membership-page .card-grid .card:nth-child(1) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?w=800&q=80') center/cover no-repeat;
+}
+.membership-page .card-grid .card:nth-child(2) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80') center 40%/cover no-repeat;
+}
+.membership-page .card-grid .card:nth-child(3) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&q=80') center/cover no-repeat;
+}
+.membership-page .card-grid .card:nth-child(4) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=800&q=80') center/cover no-repeat;
 }

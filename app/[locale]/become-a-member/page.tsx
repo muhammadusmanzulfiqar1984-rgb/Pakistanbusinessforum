@@ -19,7 +19,8 @@ export default function BecomeAMember() {
       <Navigation />
       <main>
 
-        <div className="page-container">
+        <div className="page-container membership-page">
+        <div className="membership-hero-banner" aria-hidden="true" />
         <PageHeader
           title="Become a member"
           lead={

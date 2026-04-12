@@ -335,23 +335,6 @@
   }
 }
 
-/* Fix About Page Tabs on Mobile */
-@media (max-width: 768px) {
-  .about-tabs {
-    flex-direction: row;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    gap: 4px;
-    padding-bottom: 8px;
-  }
-
-  .tab-button {
-    flex-shrink: 0;
-    white-space: nowrap;
-    min-width: auto;
-  }
-}
-
 /* Fix Team Grids on Mobile */
 @media (max-width: 768px) {
   .team-grid {

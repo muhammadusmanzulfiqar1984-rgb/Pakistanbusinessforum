@@ -1,10 +1,35 @@
 .services-section {
-  margin: var(--spacing-lg) 0;
+  margin: var(--spacing-md) 0;
+}
+
+/* ── Media page hero banner ── */
+.media-hero-banner {
+  width: 100%;
+  height: 260px;
+  background-image: url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=1400&q=80');
+  background-size: cover;
+  background-position: center 40%;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.media-hero-banner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(15,36,99,0.62) 0%, rgba(10,24,72,0.42) 100%);
+  border-radius: inherit;
+}
+
+@media (max-width: 640px) {
+  .media-hero-banner { height: 160px; }
 }
 
 .service-item {
-  margin-bottom: var(--spacing-lg);
-  padding-bottom: var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  padding-bottom: var(--spacing-md);
   border-bottom: 1px solid var(--color-grey-border);
 }
 
@@ -41,4 +66,21 @@
   font-weight: 400;
   font-size: var(--font-size-base);
   margin-top: var(--spacing-sm);
+}
+
+/* ── Media product card images — gradient overlay on photo ── */
+.media-page .card-grid .card:nth-child(1) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&q=80') center top/cover no-repeat;
+}
+.media-page .card-grid .card:nth-child(2) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80') center/cover no-repeat;
+}
+.media-page .card-grid .card:nth-child(3) {
+  background:
+    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    url('https://images.unsplash.com/photo-1553729459-efe14ef6055d?w=800&q=80') center/cover no-repeat;
 }

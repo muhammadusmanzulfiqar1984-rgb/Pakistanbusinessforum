@@ -89,7 +89,7 @@
     0 4px 16px rgba(0,0,0,0.05);
   outline: 1px solid rgba(255,255,255,0.55);
   outline-offset: -1px;
-  padding: 28px;
+  padding: 24px;
 }
 
 /* ── Scope list glass items ── */
@@ -234,7 +234,7 @@ button[type="submit"]:hover, .submit-button:hover {
 /* Enhanced Page Header */
 .page-header {
   position: relative;
-  padding-bottom: 32px;
+  padding-bottom: 16px;
 }
 
 .page-header::after {
@@ -1319,9 +1319,12 @@ button:hover,
   display: flex;
   gap: 0;
   position: relative;
-  border-bottom: 1.5px solid rgba(200, 218, 255, 0.14);
+  border-bottom: 2px solid rgba(15, 36, 99, 0.12);
   margin-bottom: 0;
   flex-wrap: wrap;
+  background: rgba(15, 36, 99, 0.03);
+  border-radius: 8px 8px 0 0;
+  padding: 0 4px;
 }
 
 .ptabs-tab {
@@ -1332,7 +1335,7 @@ button:hover,
   margin-bottom: -2px;
   font-size: 13.5px;
   font-weight: 500;
-  color: rgba(180, 205, 240, 0.55);
+  color: rgba(15, 36, 99, 0.45);
   cursor: pointer;
   font-family: inherit;
   white-space: nowrap;
@@ -1342,24 +1345,24 @@ button:hover,
 }
 
 .ptabs-tab:hover {
-  color: rgba(200, 225, 255, 0.90);
+  color: #0f2463;
 }
 
 .ptabs-tab-active {
-  color: #e8f0ff;
+  color: #0f2463;
   font-weight: 700;
-  border-bottom-color: #C0C0C0;
+  border-bottom-color: #0f2463;
 }
 
 .ptabs-indicator {
   position: absolute;
   bottom: -2px;
   height: 3px;
-  background: linear-gradient(90deg, rgba(192, 192, 192,0.60), #C0C0C0, rgba(192, 192, 192,0.60));
+  background: linear-gradient(90deg, rgba(15, 36, 99, 0.40), #0f2463, rgba(15, 36, 99, 0.40));
   border-radius: 2px 2px 0 0;
   transition: left 0.28s cubic-bezier(0.4,0,0.2,1), width 0.28s cubic-bezier(0.4,0,0.2,1);
   pointer-events: none;
-  box-shadow: 0 0 8px rgba(192, 192, 192,0.50);
+  box-shadow: 0 0 8px rgba(15, 36, 99, 0.15);
 }
 
 .ptabs-panel {

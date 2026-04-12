@@ -1,8 +1,8 @@
 .gallery-grid {
   display: grid;
-  gap: 24px;
+  gap: 16px;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  margin-top: var(--spacing-md);
+  margin-top: var(--spacing-sm);
 }
 
 .gallery-item {

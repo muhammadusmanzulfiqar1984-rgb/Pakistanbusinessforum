@@ -26,6 +26,7 @@ export default async function Regions() {
       <main>
 
         <div className="page-container">
+        <div className="regions-hero-banner" aria-hidden="true" />
         <PageHeader
           title={t('title')}
           lead={t('lead')}

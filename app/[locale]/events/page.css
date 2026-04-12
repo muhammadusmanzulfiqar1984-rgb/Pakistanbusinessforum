@@ -1,3 +1,28 @@
+/* ── Events page hero banner ── */
+.events-hero-banner {
+  width: 100%;
+  height: 260px;
+  background-image: url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=1400&q=80');
+  background-size: cover;
+  background-position: center 40%;
+  border-radius: 16px;
+  margin-bottom: 40px;
+  position: relative;
+  overflow: hidden;
+}
+
+.events-hero-banner::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(160deg, rgba(15,36,99,0.60) 0%, rgba(10,24,72,0.40) 100%);
+  border-radius: inherit;
+}
+
+@media (max-width: 640px) {
+  .events-hero-banner { height: 160px; }
+}
+
 .event-card {
   position: relative;
 }
@@ -71,12 +96,12 @@
 }
 
 .events-page .card {
-  padding: var(--spacing-md);
+  padding: 20px;
   gap: 8px;
 }
 
 .events-page .section {
-  padding: var(--spacing-md) 0;
+  padding: 16px 0;
 }
 
 .events-page .section-title {
