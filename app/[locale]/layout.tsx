@@ -6,6 +6,7 @@ import { locales, rtlLocales } from '@/i18n'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
 import Chatbot from '@/components/Chatbot'
 import GlobalAnimations from '@/components/GlobalAnimations'
+import { Analytics } from '@vercel/analytics/next'
 import '../globals.css'
 import '../enhancements.css'
 import '../mobile-fixes.css'
@@ -85,6 +86,7 @@ export default async function LocaleLayout({
           <Chatbot />
           <GlobalAnimations />
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   )
