@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import './Footer.css'
 
 // Translation prop type — passed from parent server component
@@ -33,15 +32,6 @@ export default function Footer({ t = defaultT }: FooterProps) {
       <div className="footer-top">
         <div className="footer-top-inner">
           <div className="footer-brand">
-            <div className="footer-logo-crest" aria-hidden="true">
-              <Image
-                src="/images/Pakistan business forum 1.png"
-                alt=""
-                width={64}
-                height={64}
-                style={{ objectFit: 'contain' }}
-              />
-            </div>
             <div className="footer-brand-name">
               Pakistan Business Forum<span className="trademark">®</span>
             </div>
