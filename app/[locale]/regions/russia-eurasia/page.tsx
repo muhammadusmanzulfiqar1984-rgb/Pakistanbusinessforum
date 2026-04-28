@@ -17,14 +17,14 @@ export default function RussiaEurasia() {
 
           <Section title="Regional Leadership">
             <p>
-              Our research activities in Russia & Eurasia are coordinated by <strong>Dr. Elena Petrov</strong>, 
-              Regional Head for Russia & Eurasia. Dr. Petrov leads research initiatives and policy 
+              Our research activities in Russia & Eurasia are coordinated by <strong>Dr. Yuri Sokolov</strong>, 
+              Regional Head for Russia & Eurasia. Dr. Yuri Sokolov leads research initiatives and policy 
               analysis across Russia and Eurasian regional frameworks, ensuring comprehensive coverage 
               of governance systems, regulatory mechanisms, and economic policy coordination.
             </p>
             <p>
-              For inquiries regarding our Russia & Eurasia research activities, please contact Dr. Petrov at 
-              <a href="mailto:e.petrov@pakistanbusinessforum.org" className="email-link"> e.petrov@pakistanbusinessforum.org</a>.
+              For inquiries regarding our Russia & Eurasia research activities, please contact Dr. Yuri Sokolov at 
+              <a href="mailto:y.sokolov@pakistanbusinessforum.org" className="email-link"> y.sokolov@pakistanbusinessforum.org</a>.
             </p>
           </Section>
 

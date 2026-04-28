@@ -110,31 +110,31 @@ function TeamTab() {
   const teams: Record<string, { name: string; role: string; loc: string }[]> = {
     'Policy Board': [
       { name:'Mian Muhammad Usman', role:'Patron-in-Chief', loc:'Pakistan' },
-      { name:'Dr. Amara Siddiqi', role:'Policy Board Member', loc:'UK, London' },
-      { name:'Mr. Bilal Chaudhry', role:'Policy Board Member', loc:'Pakistan, Islamabad' },
+      { name:'Dr. Hannah Whitfield', role:'Policy Board Member', loc:'UK, London' },
+      { name:'Mr. Kamran Hashmi', role:'Policy Board Member', loc:'Pakistan, Islamabad' },
     ],
     'Research': [
-      { name:'Dr. Rania Yousuf', role:'Head of Research', loc:'Pakistan, Islamabad' },
-      { name:'Prof. Ibrahim Kamal', role:'Head of Economic Research', loc:'USA, New York' },
-      { name:'Dr. Layla Mirza', role:'Head of Policy Evaluation', loc:'Canada, Ottawa' },
-      { name:'Dr. Cyrus Baig', role:'Head of Governance Research', loc:'Australia, Canberra' },
+      { name:'Dr. Sumera Iqbal', role:'Head of Research', loc:'Pakistan, Islamabad' },
+      { name:'Prof. Edward Hollister', role:'Head of Economic Research', loc:'USA, New York' },
+      { name:'Dr. Alain Tremblay', role:'Head of Policy Evaluation', loc:'Canada, Ottawa' },
+      { name:'Dr. Margaret Donovan', role:'Head of Governance Research', loc:'Australia, Canberra' },
     ],
     'Media': [
-      { name:'Ms. Samara Qazi', role:'Head of Media & Communications', loc:'Pakistan, Islamabad' },
-      { name:'Mr. Tariq Ansari', role:'Head of Strategic Communications', loc:'UAE, Dubai' },
-      { name:'Ms. Dina Wahab', role:'Head of Publications', loc:'Pakistan, Karachi' },
+      { name:'Ms. Hina Riaz', role:'Head of Media & Communications', loc:'Pakistan, Islamabad' },
+      { name:'Mr. Yusuf Al-Mazrouei', role:'Head of Strategic Communications', loc:'UAE, Dubai' },
+      { name:'Ms. Mehreen Lodhi', role:'Head of Publications', loc:'Pakistan, Karachi' },
     ],
     'Regional': [
-      { name:'Dr. Robert Callahan', role:'Regional Head, Americas', loc:'USA, Washington D.C.' },
-      { name:'Dr. Raymond Tan', role:'Regional Head, Asia-Pacific', loc:'Singapore' },
-      { name:'Dr. Stefan Hartmann', role:'Regional Head, Europe', loc:'UK, London' },
-      { name:'Dr. Leila Azouri', role:'Regional Head, MENA', loc:'Lebanon, Beirut' },
-      { name:'Dr. Emmanuel Asante', role:'Regional Head, Africa', loc:'South Africa, Pretoria' },
-      { name:'Dr. Natasha Volkov', role:'Regional Head, Russia & Eurasia', loc:'Russia, Moscow' },
+      { name:'Dr. Gregory Whitman', role:'Regional Head, Americas', loc:'USA, Washington D.C.' },
+      { name:'Dr. Wei Lim Chong', role:'Regional Head, Asia-Pacific', loc:'Singapore' },
+      { name:'Dr. Oliver Pemberton', role:'Regional Head, Europe', loc:'UK, London' },
+      { name:'Dr. Nadia Khoury', role:'Regional Head, MENA', loc:'Lebanon, Beirut' },
+      { name:'Dr. Thabo Nkosi', role:'Regional Head, Africa', loc:'South Africa, Pretoria' },
+      { name:'Dr. Anatoly Vasiliev', role:'Regional Head, Russia & Eurasia', loc:'Russia, Moscow' },
     ],
     'Administration': [
-      { name:'Mr. Tariq Salam', role:'Chief Administrative Officer', loc:'Pakistan, Islamabad' },
-      { name:'Ms. Saira Baig', role:'Director of Operations', loc:'Pakistan, Islamabad' },
+      { name:'Mr. Adil Bashir', role:'Chief Administrative Officer', loc:'Pakistan, Islamabad' },
+      { name:'Ms. Komal Anwar', role:'Director of Operations', loc:'Pakistan, Islamabad' },
     ],
   }
   return (
@@ -261,12 +261,12 @@ export default function About() {
           <div className="compact-grid">
             {[
               { name: 'Mian Muhammad Usman', role: 'Patron-in-Chief', loc: 'Pakistan' },
-              { name: 'Mr. Tariq Salam', role: 'Chief Administrative Officer', loc: 'Islamabad' },
-              { name: 'Ms. Saira Baig', role: 'Director of Operations', loc: 'Islamabad' },
-              { name: 'Dr. Rania Yousuf', role: 'Head of Research', loc: 'Islamabad' },
-              { name: 'Ms. Samara Qazi', role: 'Head of Media & Communications', loc: 'Islamabad' },
-              { name: 'Ms. Dina Wahab', role: 'Head of Publications', loc: 'Karachi' },
-              { name: 'Mr. Bilal Chaudhry', role: 'Policy Board Member', loc: 'Islamabad' },
+              { name: 'Mr. Adil Bashir', role: 'Chief Administrative Officer', loc: 'Islamabad' },
+              { name: 'Ms. Komal Anwar', role: 'Director of Operations', loc: 'Islamabad' },
+              { name: 'Dr. Sumera Iqbal', role: 'Head of Research', loc: 'Islamabad' },
+              { name: 'Ms. Hina Riaz', role: 'Head of Media & Communications', loc: 'Islamabad' },
+              { name: 'Ms. Mehreen Lodhi', role: 'Head of Publications', loc: 'Karachi' },
+              { name: 'Mr. Kamran Hashmi', role: 'Policy Board Member', loc: 'Islamabad' },
             ].map(m => (
               <div key={m.name} className="compact-card">
                 <div className="compact-name">{m.name}</div>
@@ -289,16 +289,16 @@ export default function About() {
           </p>
           <div className="advisors-grid">
             {[
-              { name: 'Prof. Dr. Arjun Chattopadhyay', field: 'Nobel Laureate in Economic Sciences', bio: 'Distinguished economist and philosopher, recognised for foundational contributions to welfare economics and social choice theory.', loc: 'United States, Cambridge' },
-              { name: 'Prof. Dr. William Forsythe', field: 'Nobel Laureate in Economic Sciences', bio: 'Renowned economist and former chief economist at a leading international financial institution.', loc: 'United States, New York' },
-              { name: 'Prof. Dr. Laurent Mercier', field: 'Economic Inequality & Public Policy', bio: 'Professor at a leading European school of economics, expert on wealth inequality and capital distribution.', loc: 'France, Paris' },
-              { name: 'Prof. Dr. Marcus Ellison', field: 'International Political Economy', bio: 'Professor of International Political Economy at a leading policy school, expert on globalisation and economic development.', loc: 'United States, Cambridge' },
-              { name: 'Prof. Dr. Catherine Aldridge', field: 'International Law & Policy', bio: 'Former director of policy planning at a major government ministry and leading expert on international relations.', loc: 'United States, Washington D.C.' },
-              { name: 'Prof. Dr. Eleanor Harrington', field: 'Global Economic Governance', bio: 'Dean of a leading school of government, expert on global economic governance and development policy.', loc: 'United Kingdom, Oxford' },
-              { name: 'Prof. Dr. Raymond Chen', field: 'Asian Affairs & Global Governance', bio: 'Distinguished fellow at a leading Asian research institute and former diplomat.', loc: 'Singapore, Singapore' },
-              { name: 'Prof. Dr. Daniel Whitmore', field: 'Sustainable Development', bio: 'University Professor and director of a sustainable development research centre.', loc: 'United States, New York' },
-              { name: 'Prof. Dr. Adrian Karolewski', field: 'Political Economy & Institutions', bio: 'Professor of Economics at a leading research university, authority on political economy and institutions.', loc: 'United States, Cambridge' },
-              { name: 'Prof. Dr. Vikram Nair', field: 'Finance & Economic Policy', bio: 'Distinguished professor at a leading business school, former central bank governor.', loc: 'United States, Chicago' },
+              { name: 'Prof. Dr. Edmund Pierce', field: 'Nobel Laureate in Economic Sciences', bio: 'Distinguished economist and philosopher, recognised for foundational contributions to welfare economics and social choice theory.', loc: 'United States, Cambridge' },
+              { name: 'Prof. Dr. Theodore Larkin', field: 'Nobel Laureate in Economic Sciences', bio: 'Renowned economist and former chief economist at a leading international financial institution.', loc: 'United States, New York' },
+              { name: 'Prof. Dr. Henri Dubois', field: 'Economic Inequality & Public Policy', bio: 'Professor at a leading European school of economics, expert on wealth inequality and capital distribution.', loc: 'France, Paris' },
+              { name: 'Prof. Dr. Nathaniel Brewster', field: 'International Political Economy', bio: 'Professor of International Political Economy at a leading policy school, expert on globalisation and economic development.', loc: 'United States, Cambridge' },
+              { name: 'Prof. Dr. Margaret Sinclair', field: 'International Law & Policy', bio: 'Former director of policy planning at a major government ministry and leading expert on international relations.', loc: 'United States, Washington D.C.' },
+              { name: 'Prof. Dr. Charles Pendleton', field: 'Global Economic Governance', bio: 'Dean of a leading school of government, expert on global economic governance and development policy.', loc: 'United Kingdom, Oxford' },
+              { name: 'Prof. Dr. Han Jia Wei', field: 'Asian Affairs & Global Governance', bio: 'Distinguished fellow at a leading Asian research institute and former diplomat.', loc: 'Singapore, Singapore' },
+              { name: 'Prof. Dr. Frederick Caldwell', field: 'Sustainable Development', bio: 'University Professor and director of a sustainable development research centre.', loc: 'United States, New York' },
+              { name: 'Prof. Dr. Stanley Whitlock', field: 'Political Economy & Institutions', bio: 'Professor of Economics at a leading research university, authority on political economy and institutions.', loc: 'United States, Cambridge' },
+              { name: 'Prof. Dr. Reginald Hartley', field: 'Finance & Economic Policy', bio: 'Distinguished professor at a leading business school, former central bank governor.', loc: 'United States, Chicago' },
             ].map(a => (
               <div key={a.name} className="advisor-card">
                 <h4>{a.name}</h4>

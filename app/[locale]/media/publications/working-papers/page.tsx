@@ -9,7 +9,7 @@ export default function WorkingPapers() {
     {
       id: 1,
       title: "Institutional Design and Policy Outcomes: A Theoretical Framework",
-      authors: ["Dr. Fatima Ali", "Dr. Hassan Raza"],
+      authors: ["Dr. Maryam Tariq", "Dr. Imran Aftab"],
       date: "May 2024",
       paperNumber: "PBF-WP-2024-001",
       version: "Working Paper v1.0",
@@ -25,7 +25,7 @@ export default function WorkingPapers() {
     {
       id: 2,
       title: "Economic Policy Coordination Mechanisms: An Empirical Analysis",
-      authors: ["Prof. Muhammad Zain", "Dr. Ayesha Malik"],
+      authors: ["Prof. Saqib Mahmood", "Dr. Hira Javaid"],
       date: "April 2024",
       paperNumber: "PBF-WP-2024-002",
       version: "Working Paper v1.2",
@@ -41,7 +41,7 @@ export default function WorkingPapers() {
     {
       id: 3,
       title: "Media Engagement and Policy Communication: A Comparative Study",
-      authors: ["Zara Sheikh", "Omar Farooq", "Dr. Fatima Ali"],
+      authors: ["Ms. Anum Pervaiz", "Mr. Bilawal Yusuf", "Dr. Maryam Tariq"],
       date: "March 2024",
       paperNumber: "PBF-WP-2024-003",
       version: "Working Paper v1.0",
@@ -57,7 +57,7 @@ export default function WorkingPapers() {
     {
       id: 4,
       title: "Regulatory Monitoring Methodologies: Development and Application",
-      authors: ["Dr. Ayesha Malik", "Ahmed Hassan"],
+      authors: ["Dr. Hira Javaid", "Mr. Owais Naveed"],
       date: "February 2024",
       paperNumber: "PBF-WP-2024-004",
       version: "Working Paper v1.1",

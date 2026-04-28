@@ -9,7 +9,7 @@ export default function ResearchReports() {
     {
       id: 1,
       title: "Governance Frameworks and Administrative Capacity: A Comprehensive Analysis of Institutional Mechanisms",
-      authors: ["Dr. Fatima Ali", "Dr. Hassan Raza", "Prof. Muhammad Zain"],
+      authors: ["Dr. Maryam Tariq", "Dr. Imran Aftab", "Prof. Saqib Mahmood"],
       date: "March 2024",
       reportNumber: "PBF-RR-2024-001",
       pages: 156,
@@ -25,7 +25,7 @@ export default function ResearchReports() {
     {
       id: 2,
       title: "Economic Policy Coordination and Macroeconomic Stability: Evidence from Developing Economies",
-      authors: ["Prof. Muhammad Zain", "Dr. Ayesha Malik"],
+      authors: ["Prof. Saqib Mahmood", "Dr. Hira Javaid"],
       date: "February 2024",
       reportNumber: "PBF-RR-2024-002",
       pages: 142,
@@ -41,7 +41,7 @@ export default function ResearchReports() {
     {
       id: 3,
       title: "Crisis Management Frameworks: Analysis of Institutional Response Mechanisms",
-      authors: ["Dr. Hassan Raza", "Zara Sheikh"],
+      authors: ["Dr. Imran Aftab", "Ms. Anum Pervaiz"],
       date: "January 2024",
       reportNumber: "PBF-RR-2024-003",
       pages: 128,
@@ -57,7 +57,7 @@ export default function ResearchReports() {
     {
       id: 4,
       title: "Regulatory Monitoring and Strategic Intelligence: Tools and Methodologies for Policy Analysis",
-      authors: ["Dr. Ayesha Malik", "Omar Farooq"],
+      authors: ["Dr. Hira Javaid", "Mr. Bilawal Yusuf"],
       date: "December 2023",
       reportNumber: "PBF-RR-2023-004",
       pages: 134,

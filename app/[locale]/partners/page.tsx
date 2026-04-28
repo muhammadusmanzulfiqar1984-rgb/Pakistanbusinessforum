@@ -37,7 +37,6 @@ const academicLogos = [
 
 const thinkTankLogos = [
   { src: '/images/partners/international-think-tanks/brookings-institution.svg', alt: 'Brookings Institution' },
-  { src: '/images/partners/international-think-tanks/chatham-house.svg',         alt: 'Chatham House' },
   { src: '/images/partners/international-think-tanks/carnegie-endowment.svg',    alt: 'Carnegie Endowment' },
   { src: '/images/partners/international-think-tanks/csis.svg',                  alt: 'CSIS' },
   { src: '/images/partners/international-think-tanks/peterson-institute.svg',    alt: 'Peterson Institute' },

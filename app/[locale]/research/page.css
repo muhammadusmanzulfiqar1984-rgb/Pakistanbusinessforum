@@ -15,7 +15,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(160deg, rgba(15,36,99,0.65) 0%, rgba(10,24,72,0.45) 100%);
+  background: linear-gradient(160deg, rgba(11, 31, 58,0.65) 0%, rgba(10,24,72,0.45) 100%);
   border-radius: inherit;
 }
 
@@ -71,21 +71,21 @@
 /* ── Research theme card images — gradient overlay on photo ── */
 .research-page .card-grid .card:nth-child(1) {
   background:
-    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    linear-gradient(145deg, rgba(11, 31, 58,0.78) 0%, rgba(10,24,72,0.85) 100%),
     url('https://images.unsplash.com/photo-1529088746738-c4c0a152fb2c?w=800&q=80') center/cover no-repeat;
 }
 .research-page .card-grid .card:nth-child(2) {
   background:
-    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    linear-gradient(145deg, rgba(11, 31, 58,0.78) 0%, rgba(10,24,72,0.85) 100%),
     url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=80') center/cover no-repeat;
 }
 .research-page .card-grid .card:nth-child(3) {
   background:
-    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    linear-gradient(145deg, rgba(11, 31, 58,0.78) 0%, rgba(10,24,72,0.85) 100%),
     url('https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800&q=80') center/cover no-repeat;
 }
 .research-page .card-grid .card:nth-child(4) {
   background:
-    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    linear-gradient(145deg, rgba(11, 31, 58,0.78) 0%, rgba(10,24,72,0.85) 100%),
     url('https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&q=80') center/cover no-repeat;
 }

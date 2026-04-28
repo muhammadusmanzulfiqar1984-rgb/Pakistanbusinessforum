@@ -17,14 +17,14 @@ export default function MiddleEastNorthAfrica() {
 
           <Section title="Regional Leadership">
             <p>
-              Our research activities in the Middle East & North Africa are coordinated by <strong>Dr. Amina Hassan</strong>, 
-              Regional Head for Middle East & North Africa. Dr. Hassan specializes in regional policy 
+              Our research activities in the Middle East & North Africa are coordinated by <strong>Dr. Fatima Al-Rashid</strong>, 
+              Regional Head for Middle East & North Africa. Dr. Fatima Al-Rashid specializes in regional policy 
               analysis and governance research across MENA countries, ensuring comprehensive coverage 
               of governance systems, regulatory frameworks, and economic policy mechanisms.
             </p>
             <p>
-              For inquiries regarding our MENA research activities, please contact Dr. Hassan at 
-              <a href="mailto:a.hassan@pakistanbusinessforum.org" className="email-link"> a.hassan@pakistanbusinessforum.org</a>.
+              For inquiries regarding our MENA research activities, please contact Dr. Fatima Al-Rashid at 
+              <a href="mailto:f.alrashid@pakistanbusinessforum.org" className="email-link"> f.alrashid@pakistanbusinessforum.org</a>.
             </p>
           </Section>
 

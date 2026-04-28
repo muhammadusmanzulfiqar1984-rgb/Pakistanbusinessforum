@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import { useTranslations } from 'next-intl'
 
 const statsData = [
-  { value: 2016, suffix: '', key: 'statFounded' },
+  { value: 2016, suffix: '', key: 'statFounded', noCount: true },
   { value: 38,   suffix: '+', key: 'statResearch' },
   { value: 12,   suffix: '', key: 'statRegions' },
   { value: 5,    suffix: '', key: 'statPracticeAreas' },
@@ -41,12 +41,13 @@ function useCountUp(target: number, duration = 1800, active: boolean) {
   return count
 }
 
-function StatItem({ value, suffix, label, active }: { value: number; suffix: string; label: string; active: boolean }) {
-  const count = useCountUp(value, 1800, active)
+function StatItem({ value, suffix, label, active, noCount }: { value: number; suffix: string; label: string; active: boolean; noCount?: boolean }) {
+  const count = useCountUp(value, 1800, active && !noCount)
+  const display = noCount ? value.toString() : count.toLocaleString()
   return (
     <div className="stat-item">
       <span className="stat-number">
-        {count.toLocaleString()}{suffix}
+        {display}{suffix}
       </span>
       <span className="stat-label">{label}</span>
     </div>
@@ -64,7 +65,7 @@ export default function StatsBar() {
   return (
     <div className="stats-bar">
       {statsData.map((stat) => (
-        <StatItem key={stat.key} value={stat.value} suffix={stat.suffix} label={t(stat.key)} active={active} />
+        <StatItem key={stat.key} value={stat.value} suffix={stat.suffix} label={t(stat.key)} active={active} noCount={stat.noCount} />
       ))}
     </div>
   )

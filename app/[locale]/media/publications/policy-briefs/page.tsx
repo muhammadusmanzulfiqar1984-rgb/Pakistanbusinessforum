@@ -9,7 +9,7 @@ export default function PolicyBriefs() {
     {
       id: 1,
       title: "Strengthening Administrative Capacity: Key Recommendations for Institutional Development",
-      authors: ["Dr. Fatima Ali"],
+      authors: ["Dr. Maryam Tariq"],
       date: "April 2024",
       briefNumber: "PBF-PB-2024-001",
       summary: "This policy brief examines the critical role of administrative capacity in effective policy implementation. Drawing on recent research findings, we provide evidence-based recommendations for strengthening administrative mechanisms and enhancing institutional effectiveness.",
@@ -24,7 +24,7 @@ export default function PolicyBriefs() {
     {
       id: 2,
       title: "Economic Policy Coordination: Framework for Fiscal and Monetary Integration",
-      authors: ["Prof. Muhammad Zain", "Dr. Ayesha Malik"],
+      authors: ["Prof. Saqib Mahmood", "Dr. Hira Javaid"],
       date: "March 2024",
       briefNumber: "PBF-PB-2024-002",
       summary: "This brief presents a framework for effective coordination between fiscal and monetary policy. Based on empirical analysis of policy coordination mechanisms, we outline key principles and practical approaches for enhancing policy coherence and macroeconomic stability.",
@@ -39,7 +39,7 @@ export default function PolicyBriefs() {
     {
       id: 3,
       title: "Crisis Management Preparedness: Building Institutional Resilience",
-      authors: ["Dr. Hassan Raza"],
+      authors: ["Dr. Imran Aftab"],
       date: "February 2024",
       briefNumber: "PBF-PB-2024-003",
       summary: "This policy brief addresses the importance of crisis management preparedness for policy institutions. We provide practical guidance on developing crisis management frameworks, response mechanisms, and recovery planning to enhance institutional resilience.",
@@ -54,7 +54,7 @@ export default function PolicyBriefs() {
     {
       id: 4,
       title: "Regulatory Monitoring and Strategic Intelligence: Tools for Policy Anticipation",
-      authors: ["Dr. Ayesha Malik"],
+      authors: ["Dr. Hira Javaid"],
       date: "January 2024",
       briefNumber: "PBF-PB-2024-004",
       summary: "This brief introduces tools and methodologies for systematic regulatory monitoring and strategic intelligence gathering. We present practical approaches for tracking regulatory developments and anticipating policy changes to support informed decision-making.",
@@ -69,7 +69,7 @@ export default function PolicyBriefs() {
     {
       id: 5,
       title: "Media Engagement Strategies: Effective Communication for Policy Institutions",
-      authors: ["Zara Sheikh", "Omar Farooq"],
+      authors: ["Ms. Anum Pervaiz", "Mr. Bilawal Yusuf"],
       date: "December 2023",
       briefNumber: "PBF-PB-2023-005",
       summary: "This policy brief examines effective media engagement strategies for policy institutions. Based on research on communication mechanisms and media relations, we provide guidance on developing communication strategies that enhance policy understanding and public engagement.",

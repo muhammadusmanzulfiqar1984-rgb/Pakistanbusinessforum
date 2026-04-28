@@ -17,14 +17,14 @@ export default function Americas() {
 
           <Section title="Regional Leadership">
             <p>
-              Our research activities in the Americas are coordinated by <strong>Dr. James Wilson</strong>, 
-              Regional Head for the Americas. Dr. Wilson coordinates research and policy analysis 
+              Our research activities in the Americas are coordinated by <strong>Dr. Patricia Brennan</strong>, 
+              Regional Head for the Americas. Dr. Patricia Brennan coordinates research and policy analysis 
               activities across North and South American regions, ensuring comprehensive coverage of 
               governance systems, regulatory frameworks, and economic policy mechanisms.
             </p>
             <p>
-              For inquiries regarding our Americas research activities, please contact Dr. Wilson at 
-              <a href="mailto:j.wilson@pakistanbusinessforum.org" className="email-link"> j.wilson@pakistanbusinessforum.org</a>.
+              For inquiries regarding our Americas research activities, please contact Dr. Patricia Brennan at 
+              <a href="mailto:p.brennan@pakistanbusinessforum.org" className="email-link"> p.brennan@pakistanbusinessforum.org</a>.
             </p>
           </Section>
 

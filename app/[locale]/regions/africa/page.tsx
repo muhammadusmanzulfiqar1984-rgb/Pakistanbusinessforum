@@ -17,14 +17,14 @@ export default function Africa() {
 
           <Section title="Regional Leadership">
             <p>
-              Our research activities in Africa are coordinated by <strong>Dr. Kwame Osei</strong>, 
-              Regional Head for Africa. Dr. Osei coordinates research activities and policy analysis 
+              Our research activities in Africa are coordinated by <strong>Dr. Kofi Mensah</strong>, 
+              Regional Head for Africa. Dr. Kofi Mensah coordinates research activities and policy analysis 
               across African regional contexts, ensuring that our work addresses the unique governance 
               challenges and economic opportunities within the continent.
             </p>
             <p>
-              For inquiries regarding our Africa research activities, please contact Dr. Osei at 
-              <a href="mailto:k.osei@pakistanbusinessforum.org" className="email-link"> k.osei@pakistanbusinessforum.org</a>.
+              For inquiries regarding our Africa research activities, please contact Dr. Kofi Mensah at 
+              <a href="mailto:k.mensah@pakistanbusinessforum.org" className="email-link"> k.mensah@pakistanbusinessforum.org</a>.
             </p>
           </Section>
 

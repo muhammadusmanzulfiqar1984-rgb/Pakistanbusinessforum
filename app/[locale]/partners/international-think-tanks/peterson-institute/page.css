@@ -16,7 +16,7 @@
   width: 180px;
   height: 180px;
   object-fit: contain;
-  border: 3px solid #0f2463;
+  border: 3px solid #0b1f3a;
   border-radius: 12px;
   background: #f1eeeb;
 }
@@ -33,7 +33,7 @@
 }
 
 .partner-info strong {
-  color: #0f2463;
+  color: #0b1f3a;
   font-weight: 600;
 }
 

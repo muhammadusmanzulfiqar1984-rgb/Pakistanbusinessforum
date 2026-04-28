@@ -7,7 +7,6 @@ import LogoSlider from '@/components/LogoSlider'
 
 const thinkTankLogos = [
   { src: '/images/partners/international-think-tanks/brookings-institution.svg', alt: 'Brookings Institution' },
-  { src: '/images/partners/international-think-tanks/chatham-house.svg',         alt: 'Chatham House' },
   { src: '/images/partners/international-think-tanks/carnegie-endowment.svg',    alt: 'Carnegie Endowment' },
   { src: '/images/partners/international-think-tanks/csis.svg',                  alt: 'CSIS' },
   { src: '/images/partners/international-think-tanks/peterson-institute.svg',    alt: 'Peterson Institute' },
@@ -33,14 +32,6 @@ export default function InternationalThinkTanks() {
       description: 'A global think tank dedicated to advancing cooperation between nations and promoting active international engagement.',
       website: 'https://carnegieendowment.org',
       logo: 'https://www.google.com/s2/favicons?domain=carnegieendowment.org&sz=128'
-    },
-    {
-      slug: 'chatham-house',
-      title: 'Chatham House',
-      location: 'London, United Kingdom',
-      description: 'The Royal Institute of International Affairs, providing independent analysis on global affairs, policy challenges, and governance issues.',
-      website: 'https://www.chathamhouse.org',
-      logo: 'https://www.google.com/s2/favicons?domain=chathamhouse.org&sz=128'
     },
     {
       slug: 'csis',

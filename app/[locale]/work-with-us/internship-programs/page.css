@@ -8,18 +8,18 @@
 .position-item {
   background-color: var(--color-card);
   border: 1px solid var(--color-border);
-  border-top: 5px solid #0f2463;
+  border-top: 5px solid #0b1f3a;
   padding: var(--spacing-lg);
   transition: all 0.2s ease;
 }
 
 .position-item:hover {
-  border-color: #0f2463;
-  border-top-color: #0f2463;
+  border-color: #0b1f3a;
+  border-top-color: #0b1f3a;
 }
 
 .position-item h3 {
-  color: #0f2463;
+  color: #0b1f3a;
   font-weight: 600;
   margin-bottom: var(--spacing-sm);
 }
@@ -56,13 +56,13 @@
   content: '•';
   position: absolute;
   left: 0;
-  color: #0f2463;
+  color: #0b1f3a;
   font-weight: 600;
   font-size: 18px;
 }
 
 .position-item strong {
-  color: #0f2463;
+  color: #0b1f3a;
   font-weight: 600;
 }
 
@@ -89,7 +89,7 @@
   top: 0;
   width: 32px;
   height: 32px;
-  background: #0f2463;
+  background: #0b1f3a;
   color: #ffffff;
   border-radius: 50%;
   display: flex;
@@ -100,15 +100,15 @@
 }
 
 .process-list strong {
-  color: #0f2463;
+  color: #0b1f3a;
   font-weight: 600;
 }
 
 .inline-link {
-  color: #0f2463;
+  color: #0b1f3a;
   text-decoration: none;
   font-weight: 600;
-  border-bottom: 1px solid #0f2463;
+  border-bottom: 1px solid #0b1f3a;
 }
 
 .inline-link:hover {

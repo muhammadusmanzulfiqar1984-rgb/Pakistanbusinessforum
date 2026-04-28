@@ -17,10 +17,10 @@ html {
 }
 
 :root {
-  --maroon: #0f2463;
-  --text-primary: #141414;
-  --text-secondary: #4b4b4b;
-  --text-muted: #707070;
+  --maroon: #0b1f3a;
+  --text-primary: #0b1f3a;
+  --text-secondary: #1e3a5f;
+  --text-muted: #4a6080;
 
   --color-maroon: var(--maroon);
   --color-text-primary: var(--text-primary);
@@ -157,7 +157,7 @@ body {
   color: var(--color-text-body);
   /* The animated background so glassmorphism is actually visible */
   background: 
-    radial-gradient(circle at 15% 50%, rgba(15, 36, 99, 0.05), transparent 25%),
+    radial-gradient(circle at 15% 50%, rgba(11, 31, 58, 0.05), transparent 25%),
     radial-gradient(circle at 85% 30%, rgba(192, 192, 192, 0.15), transparent 25%),
     #faf7f4 !important;
   background-attachment: fixed !important;
@@ -331,7 +331,7 @@ p {
 }
 
 .card {
-  background: linear-gradient(135deg, rgba(15, 36, 99, 0.95) 0%, rgba(10, 24, 66, 0.85) 100%);
+  background: linear-gradient(135deg, rgba(11, 31, 58, 0.95) 0%, rgba(10, 24, 66, 0.85) 100%);
   border: 1px solid rgba(192, 192, 192, 0.3);
   border-top: 1px solid rgba(192, 192, 192, 0.8);
   border-radius: 12px;
@@ -344,7 +344,7 @@ p {
   position: relative;
   overflow: hidden;
   box-shadow: 
-    0 8px 24px rgba(15, 36, 99, 0.15),
+    0 8px 24px rgba(11, 31, 58, 0.15),
     inset 0 1px 0 rgba(255, 255, 255, 0.15);
 }
 
@@ -378,7 +378,7 @@ p {
 .card:hover {
   transform: translateY(-4px);
   box-shadow: 
-    0 12px 32px rgba(15, 36, 99, 0.3),
+    0 12px 32px rgba(11, 31, 58, 0.3),
     inset 0 1px 0 rgba(192, 192, 192, 0.4);
   border-color: rgba(192, 192, 192, 0.6);
 }
@@ -388,17 +388,17 @@ p {
 }
 
 .card:hover {
-  border-color: #0f2463;
-  border-top-color: #0f2463;
+  border-color: #0b1f3a;
+  border-top-color: #0b1f3a;
 }
 
 .card h3 {
-  color: #0f2463;
+  color: #0b1f3a;
   font-weight: 600;
 }
 
 .card a {
-  color: #0f2463;
+  color: #0b1f3a;
 }
 
 .card-grid {
@@ -586,25 +586,25 @@ p {
 /* Light */
 .logo-strip--light {
   background: #ffffff;
-  border: 1px solid rgba(15,36,99,0.08);
+  border: 1px solid rgba(11, 31, 58,0.08);
   border-radius: 14px;
   padding: 8px 0;
 }
 .logo-strip--light::before { left: 0;  background: linear-gradient(90deg, #fff, transparent); }
 .logo-strip--light::after  { right: 0; background: linear-gradient(270deg, #fff, transparent); }
-.logo-strip--light .logo-item { opacity: 0.75; border-right: 1px solid rgba(15,36,99,0.06); }
+.logo-strip--light .logo-item { opacity: 0.75; border-right: 1px solid rgba(11, 31, 58,0.06); }
 .logo-strip--light .logo-item:hover { opacity: 1; }
 .logo-strip--light .logo-item img { filter: none; transition: filter 0.25s ease; }
 .logo-strip--light .logo-item:hover img { filter: none; }
 
 /* Dark */
 .logo-strip--dark {
-  background: #0b1840;
+  background: #0b1f3a;
   border-radius: 14px;
   padding: 8px 0;
 }
-.logo-strip--dark::before { left: 0;  background: linear-gradient(90deg, #0b1840, transparent); }
-.logo-strip--dark::after  { right: 0; background: linear-gradient(270deg, #0b1840, transparent); }
+.logo-strip--dark::before { left: 0;  background: linear-gradient(90deg, #0b1f3a, transparent); }
+.logo-strip--dark::after  { right: 0; background: linear-gradient(270deg, #0b1f3a, transparent); }
 .logo-strip--dark .logo-item { opacity: 0.80; border-right: 1px solid rgba(255,255,255,0.06); }
 .logo-strip--dark .logo-item:hover { opacity: 1; }
 .logo-strip--dark .logo-item img { filter: none; transition: filter 0.25s ease; }

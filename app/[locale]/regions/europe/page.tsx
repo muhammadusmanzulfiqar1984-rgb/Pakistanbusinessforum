@@ -17,14 +17,14 @@ export default function Europe() {
 
           <Section title="Regional Leadership">
             <p>
-              Our research activities in Europe are coordinated by <strong>Dr. Klaus Mueller</strong>, 
-              Regional Head for Europe. Dr. Mueller manages research initiatives and policy analysis 
+              Our research activities in Europe are coordinated by <strong>Dr. Werner Eberhardt</strong>, 
+              Regional Head for Europe. Dr. Werner Eberhardt manages research initiatives and policy analysis 
               across European institutions and frameworks, ensuring comprehensive coverage of governance 
               systems, regulatory mechanisms, and economic policy coordination.
             </p>
             <p>
-              For inquiries regarding our Europe research activities, please contact Dr. Mueller at 
-              <a href="mailto:k.mueller@pakistanbusinessforum.org" className="email-link"> k.mueller@pakistanbusinessforum.org</a>.
+              For inquiries regarding our Europe research activities, please contact Dr. Werner Eberhardt at 
+              <a href="mailto:w.eberhardt@pakistanbusinessforum.org" className="email-link"> w.eberhardt@pakistanbusinessforum.org</a>.
             </p>
           </Section>
 

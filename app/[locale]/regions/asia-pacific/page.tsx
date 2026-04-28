@@ -17,14 +17,14 @@ export default function AsiaPacific() {
 
           <Section title="Regional Leadership">
             <p>
-              Our research activities in Asia-Pacific are coordinated by <strong>Dr. Li Wei</strong>, 
-              Regional Head for Asia-Pacific. Dr. Wei leads regional analysis and policy research 
+              Our research activities in Asia-Pacific are coordinated by <strong>Dr. Lin Zhao</strong>, 
+              Regional Head for Asia-Pacific. Dr. Lin Zhao leads regional analysis and policy research 
               activities across Asia-Pacific countries, ensuring comprehensive coverage of governance 
               systems, economic policy frameworks, and regulatory mechanisms.
             </p>
             <p>
-              For inquiries regarding our Asia-Pacific research activities, please contact Dr. Wei at 
-              <a href="mailto:l.wei@pakistanbusinessforum.org" className="email-link"> l.wei@pakistanbusinessforum.org</a>.
+              For inquiries regarding our Asia-Pacific research activities, please contact Dr. Lin Zhao at 
+              <a href="mailto:l.zhao@pakistanbusinessforum.org" className="email-link"> l.zhao@pakistanbusinessforum.org</a>.
             </p>
           </Section>
 

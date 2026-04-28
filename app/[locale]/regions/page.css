@@ -15,7 +15,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(160deg, rgba(15,36,99,0.55) 0%, rgba(5,15,50,0.35) 100%);
+  background: linear-gradient(160deg, rgba(11, 31, 58,0.55) 0%, rgba(5,15,50,0.35) 100%);
   border-radius: inherit;
 }
 
@@ -67,31 +67,31 @@
 /* Per-region background images — gradient overlay on photo */
 .card-grid .card:nth-child(1) {
   background:
-    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    linear-gradient(145deg, rgba(11, 31, 58,0.78) 0%, rgba(10,24,72,0.85) 100%),
     url('https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=800&q=80') center/cover no-repeat;
 }
 .card-grid .card:nth-child(2) {
   background:
-    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    linear-gradient(145deg, rgba(11, 31, 58,0.78) 0%, rgba(10,24,72,0.85) 100%),
     url('https://images.unsplash.com/photo-1536599018102-9f803c140fc1?w=800&q=80') center/cover no-repeat;
 }
 .card-grid .card:nth-child(3) {
   background:
-    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    linear-gradient(145deg, rgba(11, 31, 58,0.78) 0%, rgba(10,24,72,0.85) 100%),
     url('https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=800&q=80') center/cover no-repeat;
 }
 .card-grid .card:nth-child(4) {
   background:
-    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    linear-gradient(145deg, rgba(11, 31, 58,0.78) 0%, rgba(10,24,72,0.85) 100%),
     url('https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&q=80') center 60%/cover no-repeat;
 }
 .card-grid .card:nth-child(5) {
   background:
-    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    linear-gradient(145deg, rgba(11, 31, 58,0.78) 0%, rgba(10,24,72,0.85) 100%),
     url('https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=800&q=80') center/cover no-repeat;
 }
 .card-grid .card:nth-child(6) {
   background:
-    linear-gradient(145deg, rgba(15,36,99,0.78) 0%, rgba(10,24,72,0.85) 100%),
+    linear-gradient(145deg, rgba(11, 31, 58,0.78) 0%, rgba(10,24,72,0.85) 100%),
     url('https://images.unsplash.com/photo-1513326738677-b964603b136d?w=800&q=80') center/cover no-repeat;
 }

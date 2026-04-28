@@ -67,7 +67,7 @@
 /* ── LIGHT variant ── */
 .logo-strip--light {
   background: #ffffff;
-  border: 1px solid rgba(15,36,99,0.08);
+  border: 1px solid rgba(11, 31, 58,0.08);
   border-radius: 14px;
   padding: 8px 0;
 }
@@ -75,7 +75,7 @@
 .logo-strip--light::after  { right: 0; background: linear-gradient(270deg, #ffffff, transparent); }
 .logo-strip--light .logo-item {
   opacity: 0.55;
-  border-right: 1px solid rgba(15,36,99,0.06);
+  border-right: 1px solid rgba(11, 31, 58,0.06);
 }
 .logo-strip--light .logo-item:hover { opacity: 1; }
 .logo-strip--light .logo-item img {
@@ -88,12 +88,12 @@
 
 /* ── DARK variant ── */
 .logo-strip--dark {
-  background: #0b1840;
+  background: #0b1f3a;
   border-radius: 14px;
   padding: 8px 0;
 }
-.logo-strip--dark::before { left: 0;  background: linear-gradient(90deg, #0b1840, transparent); }
-.logo-strip--dark::after  { right: 0; background: linear-gradient(270deg, #0b1840, transparent); }
+.logo-strip--dark::before { left: 0;  background: linear-gradient(90deg, #0b1f3a, transparent); }
+.logo-strip--dark::after  { right: 0; background: linear-gradient(270deg, #0b1f3a, transparent); }
 .logo-strip--dark .logo-item {
   opacity: 0.50;
   border-right: 1px solid rgba(255,255,255,0.06);

@@ -21,8 +21,8 @@ export default function FloatingLiveTV() {
         onClick={() => setIsMinimized(false)}
         style={{
           position: 'fixed',
-          bottom: '24px',
-          left: '24px',
+          bottom: '96px',
+          left: '16px',
           zIndex: 9999,
           background: 'rgba(255, 255, 255, 0.7)',
           backdropFilter: 'blur(12px)',
@@ -60,8 +60,8 @@ export default function FloatingLiveTV() {
     <div 
       style={{ 
         position: 'fixed', 
-        bottom: '24px', 
-        left: '24px', 
+        bottom: '96px', 
+        left: '16px', 
         zIndex: 9999, 
         /* crucial fix: prevent container from blocking clicks on the page */
         pointerEvents: 'none',

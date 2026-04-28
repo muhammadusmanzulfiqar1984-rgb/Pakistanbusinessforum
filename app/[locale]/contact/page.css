@@ -5,7 +5,7 @@
   width: 100%;
   height: 260px;
   background:
-    linear-gradient(160deg, rgba(15,36,99,0.58) 0%, rgba(5,15,50,0.38) 100%),
+    linear-gradient(160deg, rgba(11, 31, 58,0.58) 0%, rgba(5,15,50,0.38) 100%),
     url('https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1400&q=80') center 40%/cover no-repeat;
   border-radius: 16px;
   margin-bottom: 40px;
@@ -20,7 +20,7 @@
 /* ── IFE-style Team Cards ── */
 .contact-team-intro {
   font-size: 15px;
-  color: #555;
+  color: var(--text-muted);
   margin-bottom: 32px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .team-director-card:hover {
-  box-shadow: 0 6px 24px rgba(15,36,99,0.1);
+  box-shadow: 0 6px 24px rgba(11, 31, 58,0.1);
   transform: translateY(-3px);
 }
 
@@ -60,7 +60,7 @@
 .team-avatar-placeholder {
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #0f2463, #2a4fa0);
+  background: linear-gradient(135deg, #0b1f3a, #1a3461);
   color: #C0C0C0;
   display: flex;
   align-items: center;
@@ -82,14 +82,14 @@
 .team-director-name {
   font-size: 16px;
   font-weight: 700;
-  color: #111;
+  color: var(--text-primary);
   margin-bottom: 10px;
   font-family: 'Playfair Display', Georgia, serif;
 }
 
 .team-email {
   font-size: 12.5px;
-  color: #0f2463;
+  color: #0b1f3a;
   text-decoration: underline;
   text-underline-offset: 3px;
   word-break: break-all;
@@ -105,9 +105,9 @@
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  color: #0f2463;
+  color: #0b1f3a;
   padding-bottom: 10px;
-  border-bottom: 2px solid #0f2463;
+  border-bottom: 2px solid #0b1f3a;
   margin-bottom: 16px;
 }
 
@@ -126,13 +126,13 @@
   transition: box-shadow 0.2s;
 }
 
-.team-member-card:hover { box-shadow: 0 4px 16px rgba(15,36,99,0.1); }
+.team-member-card:hover { box-shadow: 0 4px 16px rgba(11, 31, 58,0.1); }
 
 .team-member-avatar {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #0f2463, #2a4fa0);
+  background: linear-gradient(135deg, #0b1f3a, #1a3461);
   color: #C0C0C0;
   display: flex;
   align-items: center;
@@ -142,11 +142,11 @@
   margin-bottom: 12px;
 }
 
-.team-member-name { font-size: 13px; font-weight: 600; color: #111; margin-bottom: 3px; }
-.team-member-role { font-size: 11px; color: #888; margin-bottom: 8px; }
+.team-member-name { font-size: 13px; font-weight: 600; color: var(--text-primary); margin-bottom: 3px; }
+.team-member-role { font-size: 11px; color: var(--text-muted); margin-bottom: 8px; }
 .team-member-email {
   font-size: 11px;
-  color: #0f2463;
+  color: #0b1f3a;
   text-decoration: underline;
   text-underline-offset: 2px;
   word-break: break-all;

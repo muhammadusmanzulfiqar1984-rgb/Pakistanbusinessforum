@@ -10,7 +10,7 @@ export default function AcademicJournals() {
     {
       id: 1,
       title: "Institutional Design and Policy Effectiveness: A Comparative Analysis of Governance Frameworks",
-      authors: ["Dr. Fatima Ali", "Prof. Muhammad Zain", "Dr. Ayesha Malik"],
+      authors: ["Dr. Maryam Tariq", "Prof. Saqib Mahmood", "Dr. Hira Javaid"],
       journal: "Journal of Policy Analysis and Governance",
       year: 2024,
       volume: "42",
@@ -23,7 +23,7 @@ export default function AcademicJournals() {
     {
       id: 2,
       title: "Economic Policy Coordination in Developing Economies: Evidence from Fiscal and Monetary Integration",
-      authors: ["Prof. Muhammad Zain", "Dr. Hassan Raza"],
+      authors: ["Prof. Saqib Mahmood", "Dr. Imran Aftab"],
       journal: "Review of Economic Policy Studies",
       year: 2024,
       volume: "38",
@@ -36,7 +36,7 @@ export default function AcademicJournals() {
     {
       id: 3,
       title: "Media Engagement and Policy Communication: Analyzing Institutional Communication Strategies",
-      authors: ["Zara Sheikh", "Omar Farooq", "Dr. Fatima Ali"],
+      authors: ["Ms. Anum Pervaiz", "Mr. Bilawal Yusuf", "Dr. Maryam Tariq"],
       journal: "Public Administration and Communication",
       year: 2023,
       volume: "29",
@@ -49,7 +49,7 @@ export default function AcademicJournals() {
     {
       id: 4,
       title: "Regulatory Monitoring and Strategic Intelligence: A Framework for Policy Anticipation",
-      authors: ["Dr. Ayesha Malik", "Ahmed Hassan"],
+      authors: ["Dr. Hira Javaid", "Mr. Owais Naveed"],
       journal: "Policy Studies Review",
       year: 2023,
       volume: "41",
@@ -62,7 +62,7 @@ export default function AcademicJournals() {
     {
       id: 5,
       title: "Crisis Management and Institutional Response: Lessons from Policy-Related Emergencies",
-      authors: ["Dr. Hassan Raza", "Dr. Fatima Ali"],
+      authors: ["Dr. Imran Aftab", "Dr. Maryam Tariq"],
       journal: "Journal of Crisis Management and Policy Response",
       year: 2023,
       volume: "15",
